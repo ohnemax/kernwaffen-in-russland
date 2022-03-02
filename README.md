@@ -60,14 +60,17 @@ Die Flugzeuge sind auf den Luftwaffenstützpunkten Engels und Ukrainka stationie
 
 ### Nicht-strategische Kernwaffen
 
-Russland besitzt rund 2000 sog. nicht-strategische Kernwaffen. Diese Waffen werden oft auch als taktische Kernwaffen bezeichnet. Sie sind für Einsätze in konkreten militärischen Konfliktlagen vorgesehen. Russlands Arsenal nicht-strategischer Waffen umfasst eine große Vielzahl unterschiedlicher Typen. 
+Russland besitzt rund **2000 sog. nicht-strategische Kernwaffen**. Diese Waffen werden oft auch als taktische Kernwaffen bezeichnet. Sie sind für Einsätze in konkreten militärischen Konfliktlagen vorgesehen. Russlands Arsenal nicht-strategischer Waffen umfasst eine große Vielzahl unterschiedlicher Typen. 
 
-Mit **935 Waffen hat die russiche Marine** die meisten Waffen zur Vefügung. Die Marine hat nuklear-bestückte: Marschflugkörper für den Start von Schiffen, Luftabwehrraketen, Anti-U-Boot Waffen, sowie atomare Wasserbomben und Torpedos. Die Waffen können von verschiedenen Schiffstypen eingesetzt werden, darunter U-Boote, Kampfschiffe, Flugzeugträger und marine Flugzeuge. 
-Die meisten Waffen sind für den Einsatz in S-300 und S-400 Flug- und Raketenabwehrsystemen vorgesehen. Diese Systeme sind an [verschiedenen Orten](https://missilethreat.csis.org/russia-nato-a2ad-environment/) in Russland stationiert, insbesondere im Westen Russlands zur Abwehr möglicher Angriffe.
+Mit **935 Waffen hat die russiche Marine** die meisten Waffen zur Vefügung. Die Marine hat nuklear-bestückte: Marschflugkörper für den Start von Schiffen, Luftabwehrraketen, Anti-U-Boot Waffen, sowie atomare Wasserbomben und Torpedos. Die Waffen können von verschiedenen Schiffstypen eingesetzt werden, darunter U-Boote, Kampfschiffe, Flugzeugträger und marine Flugzeuge. Die Kernwaffen sind in Waffenlagern in der Nähe von Marinestützpunkten gelagert. Marinestützpunkte gibt es in Kolosovka (in der Enklave Kaliningrad), in Gadzhyevo, Severomorsk und Zaoersk (Teil der Nordmeerflotte), in Novorossiysk (Schwarzes Meer), in Fokino, Mongokhto und Vilyuchinsk (Pazifikregion).[^lockthemup]
 
-Weitere knapp 70 Waffen sind in einem Raketenabwehrsystem rund um Moskau stationiert. Dieses System wurde in den 80er Jahren eingerichtet, und dient der Abwehr amerikanischer Interkontinentalraketen. Im Falle eines Angriffes auf Moskau würden Abfangraketen starten, und in großer Höhe über der Metropolregion Kernwaffen detonieren. Diese Detonationen sollen dann die ankommenden Raketen zerstören.
+Die **Luftwaffe verfügt über rund 500 Kernwaffen** der Kategorie "nicht-strategisch". Dazu gehören (wahrscheinlich) Marschflugkörper, zielgelenkte Bomben, und Luft-Boden bzw. Luft-Luft-Raketen mit nuklearem Sprengkopf. Kernwaffen können von unterschiedlichen Kampflugzeugen mittlerer und kurzer Reichweite eingesetzt werden. Die Waffen sind in Waffenlagern in der Nähe von Luftwaffenstützpunkten gelagert.
 
+Weitere knapp **70 Waffen sind in einem Raketenabwehrsystem** rund um Moskau stationiert. Dieses System wurde in den 80er Jahren eingerichtet, und dient der Abwehr amerikanischer Interkontinentalraketen. Im Falle eines Angriffes auf Moskau würden Abfangraketen starten, und in großer Höhe über der Metropolregion Kernwaffen detonieren. Diese Detonationen sollen dann die ankommenden Raketen zerstören. Weitere **290 Kernwaffen** sind für den Einsatz in S-300 und S-400 Flug- und Raketenabwehrsystemen vorgesehen. Diese Systeme sind an [verschiedenen Orten](https://missilethreat.csis.org/russia-nato-a2ad-environment/) in Russland stationiert, insbesondere im Westen Russlands zur Abwehr möglicher Angriffe.
 
+Darüberhinaus verfügen die **Landstreitkräfte über 90 Kernwaffen**. 70 davon sind für den Einsatz auf kurzreichweitigen Iskander-Raketen vorgesehen (Reichweite bis zu [500 km](https://missilethreat.csis.org/missile/ss-26-2/)). Weitere 20 sind für den Einsatz mit neuen bodengestützten Marschflugkörpern des Typs 9M729 vorgesehen. Die Einführung dieses Raketentyps wurde von den USA als eine Verletzung des Vertrages zum Verbot von Mittelstreckenraketen (INF-Vertrag) angesehen. Die Reichweite der Raketen wird auf [2500 km geschätzt](https://missilethreat.csis.org/missile/ssc-8-novator-9m729/).
+
+Für alle nicht-strategischen Waffen gilt, dass im Normalfall Trägersysteme und Waffen getrennt voneinander gelagert werden. 
 
 ### Ausgemusterte Kernwaffen
 
@@ -76,10 +79,12 @@ Die russischen Bestände umfassen geschätzt 1500 Waffen, die aus dem aktiven Mi
 ## Endnoten
 
 [^notebook2022]: Sofern nicht anders gekennzeichnet, stammen die Informationen in diesem Abschnitt aus Kristensen, H.M., Korda, M., 2022. Russian nuclear weapons, 2022. Bulletin of the Atomic Scientists 1–24. https://doi.org/10.1080/00963402.2022.2038907
-
+ 
 [^raketentyp]: Für russische Raketen gibt es unterschiedliche Bezeichnungen. Die NATO nutzt Bezeichnungen, die mit "SS" bzw. "AS" beginnen. Die originalen russischen Bezeichnungen beginnen mit "RS" (kyrillisch РС). So hat die Waffe mit der NATO Bezeichnung SS-27 Mod. 2 die russische Bezeichnung RS-24 bzw. in kyrillischer Schrift РС-24). Daneben gibt es noch Bezeichnungen nach dem sog. Grau-Index.
 
 [^alcmrange]: Die Reichweite der AS-15 Kent (Kh-55) wird mit 2500 km angegeben (https://missilethreat.csis.org/missile/kh-55/), die der neueren AS-23B (Kh-102) mit 2500km bis 2800km (https://missilethreat.csis.org/missile/kh-101-kh-102/)
+
+[^lockthemup]: Podvig, P., Serrat, J., 2017. Lock them Up : Zero-deployed Non-strategic Nuclear Weapons in Europe (UNIDIR Resources). United Nations Institute for Disarmament Research. http://www.unidir.org/files/publications/pdfs/lock-them-up-zero-deployed-non-strategic-nuclear-weapons-in-europe-en-675.pdf
 
 
 
