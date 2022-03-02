@@ -1,14 +1,14 @@
 # Kernwaffen in Russland
 
-Am 27.02.2022 hat der russische Präsident Putin erhöhte Alarmbereitschaft für russische Kernwaffen befohlen. Aktuell ist unklar, was dieser Befehl genau bedeutet. Diese Website gibt einen Überblick über russische Kernwaffenbestände, Einsatzszenarien, Eskalationsrisiken sowie zu den Auswirkungen von Kernwaffen allgemein.  Die Website erhält regelmäßige Updates.
+Am 27.02.2022 hat der russische Präsident Putin erhöhte Alarmbereitschaft für russische Kernwaffen befohlen. Aktuell ist unklar, was dieser Befehl genau bedeutet. Diese Website gibt einen Überblick über russische Kernwaffenbestände, Einsatzszenarien, Eskalationsrisiken sowie zu den Auswirkungen von Kernwaffen allgemein.  Die Website erhält regelmäßige [Updates](https://github.com/ohnemax/kernwaffen-in-russland/commits/main).
 
-Der [Autor](https://ifsh.de/personen/kuett) der Website ist Physiker und Politikwissenschaftler, und arbeitet seit 15 Jahren zu Themen mit Bezug zu nuklearer Abrüstung, Rüstungskontrolle und Nichtvertreitung. Weitere Autor:innen sind herzlich willkommen. Gerne per Pull-Request Änderungen vorschlagen, oder direkt Kontakt aufnehmen ([Email](mailto:kuett@ifsh.de), [Twitter](https://twitter.com/ohnemax)). 
+Der [Autor](https://ifsh.de/personen/kuett) der Website ist Physiker und Politikwissenschaftler, und arbeitet seit 15 Jahren zu Themen mit Bezug zu nuklearer Abrüstung, Rüstungskontrolle und Nichtvertreitung. *Weitere Autor:innen sind herzlich willkommen.* Gerne per Pull-Request Änderungen vorschlagen, oder direkt Kontakt aufnehmen ([Email](mailto:kuett@ifsh.de), [Twitter](https://twitter.com/ohnemax)). 
 
 ## Inhalt
 
 1) Aktuelle Entwicklungen
 2) Russische Kernwaffenbestände
-
+3) Glossar
 
 ## Aktuelle Entwicklungen
 * 27.02.2022: Präsident Putin ordnet erhöhte Alarmbereitschaft für nukleare Truppen an
@@ -45,16 +45,31 @@ Weitere 26 Interkontinentalraketen durchlaufen derzeit Upgrademaßnahmen.
 
 #### Ballistische Raketen auf U-Booten
 
+Russland besitzt derzeit 10 U-Boote, fünf des Typs Delta IV und fünf des Typs Borei. Alle U-Boote werden durch Kernreaktoren mit Energie versorgt, und haben daher eine große Reichweite und entsprechend lange Einsatzzeit. Nicht alle U-Boote sind einsatzbereit, einzelne befinden sich immer routineäßig in Wartungsarbeiten. Der Bau von fünf weiteren U-Booten der Borei-Klasse ist geplant, bzw. teilweise schon gestartet.
 
+Jedes U-Boot kann mit bis zu 16 ballistischen Raketen beladen werden, die wiederum mit je 4 Kernwaffen (Delta IV) oder je 6 Kernwaffen (Borei) bestückt werden können. Die maximale Kapazität der U-Boote beträgt derzeit 800 Kernwaffen. Aufgrund der Einschränkungen durch den New START Vertrag sind die U-Boote jedoch nicht bis zur maximalen Kapazität im Einsatz, die aktuelle Beladung wird auf weniger als 600 Kernwaffen geschätzt. Weitere Waffen sind in Munitionslagern in der Nähe der Häfen stationiert, und können bei Bedarf auch auf die U-Boote verladen werden.
 
+Ein Teil der U-Boote ist kontinuierlich in den Meeren der Welt auf Patrouillenfahrt, um vor gegnerischen Angriffen geschützt zu sein. Die Waffen auf den U-Booten sind einsatzbereit, und können bei entsprechendem Befehl innerhalb kurzer Zeit abgefeuert werden. Russische U-Boote in Häfen sind, sofern mit Raketen bestückt, ebenfalls in der Lage, ihre Waffen abzufeuern.
 
 #### Strategische Bomber
+
+Strategische Bomber sind große Kampflugzeuge, die Reichweiten in der Größenordnung von 10.000km haben, und ohne Stopp oder Betankung Ozeane zwischen Kontinenten überbrücken können. Russland besitzt derzeit etwa 55 Flugzeuge des Typs Tu-95, und 13 Flugzeuge des Typs Tu-160. Auch wenn die Flugzeuge theoretisch rund 800 Kernwaffen transportieren können, wird geschätzt, dass nur rund **580 Waffen für strategische Bomber** in russischen Arsenalen existieren. 
+
+Die Flugzeuge transportieren mit Kernwaffen bestückte Marschflugkörper, entweder des Typs AS-15 Kent oder AS-23B. Je nach Konfiguration können die Flugzeuge zwischen 6 und 16 dieser Marschflugkörper transportieren. Die Marschflugkörper verfügen selbst über einen eigenen Antrieb. Nach Abschuss vom Flugzeug können die Marschflugkörper Ziele in einer Entfernung von bis zu 2500km erreichen.[^alcmrange] Die Marschflugkörper sind durch Luftabwehr kaum aufzuhalten, die russischen Flugzeuge können daher ihre Waffen in relativ sicherer Entfernung möglicher Ziele abfeuern.
+
+Die Flugzeuge sind auf den Luftwaffenstützpunkten Engels und Ukrainka stationiert. In der Regel sind die Flugzeuge nicht mit Kernwaffen beladen, diese befinden sich in Waffenlagerstätten im Süden (Engels) bzw. Osten (Ukrainka) der jeweiligen Basis.
 
 ### Nicht-strategische Kernwaffen
 
 ### Ausgemusterte Kernwaffen
 
-Die russischen Bestände umfassen geschätzt 1500 Waffen, die aus dem aktiven Militärdienst ausgemustert wurden. Diese Waffen warten auf ihre Zerlegung, sind bisher aber weitestgehend intakt.
+Die russischen Bestände umfassen geschätzt 1500 Waffen, die aus dem aktiven Militärdienst ausgemustert wurden. Diese Waffen warten auf ihre Zerlegung, sind bisher aber weitestgehend intakt. In den ersten Jahren nach Ende des Kalten Krieges wurden in Russland jährlich mehrere tausend Waffen zerlegt. Diese Rate wurde jedoch nicht beibehalten, daher kommt es derzeit zu einem "Zerlegungsstau".
 
-## Einsatzszenarien
+## Endnoten
+
+[^raketentyp]: Für russische Raketen gibt es unterschiedliche Bezeichnungen. Die NATO nutzt Bezeichnungen, die mit "SS" bzw. "AS" beginnen. Die originalen russischen Bezeichnungen beginnen mit "RS" (kyrillisch РС). So hat die Waffe mit der NATO Bezeichnung SS-27 Mod. 2 die russische Bezeichnung RS-24 bzw. in kyrillischer Schrift РС-24). Daneben gibt es noch Bezeichnungen nach dem sog. Grau-Index.
+
+[^alcmrange]: Die Reichweite der AS-15 Kent (Kh-55) wird mit 2500 km angegeben (https://missilethreat.csis.org/missile/kh-55/), die der neueren AS-23B (Kh-102) mit 2500km bis 2800km (https://missilethreat.csis.org/missile/kh-101-kh-102/)
+
+
 
