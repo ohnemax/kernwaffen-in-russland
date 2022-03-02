@@ -9,7 +9,7 @@ Der [Autor](https://ifsh.de/personen/kuett) der Website ist Physiker und Politik
 1) [Aktuelle Entwicklungen](#aktuelle-entwicklungen)
 2) [Russische Kernwaffenbestände](#russische-kernwaffenbestände)
 3) [Effekte von Kernwaffen](https://github.com/ohnemax/kernwaffen-in-russland#effekte-von-kernwaffen)
-3) [Befehlsgewalt über Kernwaffen](#befehlsgewalt-über-kernwaffen)
+4) [Befehlsgewalt über Kernwaffen](#befehlsgewalt-über-kernwaffen)
 
 ## Aktuelle Entwicklungen
 * 24.02.2022: Russische Truppen beginnen einen Einmarsch/Überfall auf die Ukraine
@@ -115,26 +115,26 @@ Während Wissenschaftler:Innen ursprünglich davon ausgingen, dass der Effekt vo
 
 ## Befehlsgewalt über Kernwaffen
 
-Wer kann einen russischen Kernwaffeneinsatz befehligen?
-Als sicher gilt, dass der russische Präsident als Oberbefehlshaber der Streitkräfte dazu berechtigt ist.
-Unklar ist allerdings, ob ein solcher Befehl von einer oder mehreren anderen Personen bestätigt werden müsste.
-
-Folgendes Kapitel basiert, sofern nicht anders angegeben, auf einer Arbeit von Jeffrey Lewis und Bruno Tertrais[^lewis-tertrais-finger-on-the-button].
+Wer kann einen russischen Kernwaffeneinsatz befehligen? Als sicher gilt, dass der russische Präsident als Oberbefehlshaber der Streitkräfte dazu berechtigt ist. Unklar ist allerdings, ob ein solcher Befehl von einer oder mehreren anderen Personen bestätigt werden müsste. Folgendes Kapitel basiert, sofern nicht anders angegeben, auf dem Report von Jeffrey Lewis und Bruno Tertrais[^lewis-tertrais-finger-on-the-button].
 
 ### Entscheidungsträger
-Vermutlich gibt es drei Schlüsselfiguren, die einen russischen Kernwaffeneinsatz im "Normalfall" erlauben dürften (ein Sonderfall wird [weiter unten](#perimetr) behandelt).
-Als erstes würden der russische Präsident (Wladimir Putin) und der russische Verteidigungsminister (Sergey Shoygu) ihre jeweiligen, voneinander unterschiedlichen Startcodes an den Generalstabschef (Armeegeneral Valery Gerasimov) übermitteln.
+Drei Schlüsselfiguren spielen eine wichtige Rolle bei einen russischen Kernwaffeneinsatz im "Normalfall". (ein Sonderfall wird [weiter unten](#perimetr) behandelt).
+Diese Personen haben jeweils eine Aktentasche (Cheget) zur Verfügung, mit der sie Befehlsgewalt über die Waffen ausüben können.
+Neben dem russische Präsident (Wladimir Putin) haben der russische Verteidigungsminister (Sergey Shoygu) und der Generalstabschef (Armeegeneral Valery Gerasimov) einen solchen Aktenkoffer. 
+
+In einer möglichen Version der Befehlskette würden Präsident und Verteidigungsminister ihre jeweiligen, voneinander unterschiedlichen Startcodes an den Generalstabschef übermitteln. 
 Der Generalstabschef würde die beiden Codes gemeinsam mit seinem eigenen, dritten Code über separate Kommunikationsnetzwerke an die jeweiligen militärischen Einheiten weiterleiten.
-Diese würden den Befehl ausführen und den Nuklearschlag initiieren.
+Diese würden den Befehl ausführen und einen Kernwaffeneinsatz initiieren.
 
-In dieser Befehlskette würde demnach __der Präsident den Einsatz befehligen__[^krankheitsfall-praesident] und __sowohl Verteidigungsminister als auch Generalstabschef müssten den Einsatz bestätigen__.
-Allerdings muss auch hervorgehoben werden, dass ein klares Ungleichgewicht und Machtverhältnis zwischen den drei Personen herrscht: der Generalstabschef ist dem Verteidigungsminister unterstellt, welcher wiederum dem Präsidenten unterstellt ist[^ucs-sole-authority].
+Ob Russland aktuell nach dieser Beschreibung handeln würde, ist jedoch unklar. Ob wirklich alle drei Aktenkoffer nötig sind, ist umstritten. Viele Experten sind sich jedoch einig, dass das russische System verhindern soll, das eine einzige Person die Starterlaubnis für Kernwaffen erteilen kann.[^ucs-sole-authority] Unabhängig von der Befehlskette muss auch hervorgehoben werden, dass ein klares Ungleichgewicht und Machtverhältnis zwischen den drei Personen herrscht: der Generalstabschef ist dem Verteidigungsminister unterstellt, welcher wiederum dem Präsidenten unterstellt ist.
 
-### Perimetr
-Einen Sonderfall stellt _Perimetr_ dar.
-Der Kreml oder der Generalstab kann dieses Notfallsystem unter besonderen Umständen aktivieren, z.B., wenn es bestätigte Nuklearexplosionen in Russland gibt oder wenn die Kommunikation mit den politischen oder militärischen Befehlshabern ausgefallen ist.
-In diesem Fall können Offiziere einen Kernwaffeneinsatz befehlen, wobei immer zwei Offiziere den Befehl gemeinsam geben müssen.
-__Unklar ist allerdings, ob das Perimetrsystem überhaupt noch aktiv ist__.
+Falls der russische Präsident sein Amt nicht ausüben kann, z.B. aus medizinischen Gründen, dann werden alle Rechte und Pflichten, demnach auch die Entscheidungsmacht über Kernwaffeneinsätze, an den russischen Premierminister (Michail Mischustin) übertragen.
+
+### Perimetr System
+Häufig wird die Existenz eines "Totmann-System" in Russland vermutet, welches Kernwaffen automatisch starten würde, wenn die russische Führung nicht mehr erreichbar wäre.
+Ein solches System wurde wahrscheinlich nie installiert. In Russland existiert jedoch das Notfallsystem Perimetr, welches Notfallkommunikation für die russische Kommandostruktur zur Verfügung stellt.
+Die Kommunikation wird durch startende "Perimetr"-Raketen gewährleistet, die nach ihrem Start direkt mit strategischen Waffensystemen kommunizieren und entsprechende Startbefehle weitergeben.
+Damit können solche Befehle auch erteilt werden, wenn andere Kommunikationswege nicht mehr verfügbar sind.[^podvig2001]
 
 ## Endnoten / Referenzen
 
@@ -161,9 +161,10 @@ The Finger on the Button: The Authority to Use Nuclear Weapons in Nuclear-Armed 
 Middlebury Institute for International Studies at Monterey.
 https://nonproliferation.org/wp-content/uploads/2019/02/Finger-on-the-Nuclear-Button.pdf
 
-[^krankheitsfall-praesident]: Falls der russische Präsident sein Amt nicht ausüben kann, z.B. aus medizinischen Gründen, dann werden alle Rechte und Pflichten, demnach auch die Entscheidungsmacht über Kernwaffeneinsätze, an den russischen Premierminister (Michail Mischustin) übertragen.
-
 [^ucs-sole-authority]: Union of Concerned Scientists, 2017.
 Whose Finger Is on the Button?
 Nuclear Launch Authority in the United States and Other Nations.
 www.ucsusa.org/soleauthority
+
+[^podvig2001]: Bukharin, O., Kadyshev, T., Miasnikov, E., Podvig, P., Sutyagin, I., Tarasenko, M., Zhelezov, B., 2001. Russian strategic nuclear forces. Edited by Pavel Podvig. MIT Press, Cambridge, Mass.
+
