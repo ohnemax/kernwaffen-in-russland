@@ -1,6 +1,14 @@
 # Kernwaffen in Russland
 
+Am 27.02.2022 hat der russische Präsident Putin erhöhte Alarmbereitschaft für russische Kernwaffen befohlen. Aktuell ist unklar, was dieser Befehl genau bedeutet. Diese Website gibt einen Überblick über russische Kernwaffenbestände, Einsatzszenarien, Eskalationsrisiken sowie zu den Auswirkungen von Kernwaffen allgemein.  Die Website erhält regelmäßige Updates.
+
+Der [Autor](https://ifsh.de/personen/kuett) der Website ist Physiker und Politikwissenschaftler, und arbeitet seit 15 Jahren zu Themen mit Bezug zu nuklearer Abrüstung, Rüstungskontrolle und Nichtvertreitung. Weitere Autor:innen sind herzlich willkommen. Gerne per Pull-Request Änderungen vorschlagen, oder direkt Kontakt aufnehmen ([Email](mailto:kuett@ifsh.de), [Twitter](https://twitter.com/ohnemax)). 
+
 ## Inhalt
+
+1) Aktuelle Entwicklungen
+2) Russische Kernwaffenbestände
+
 
 ## Aktuelle Entwicklungen
 * 27.02.2022: Präsident Putin ordnet erhöhte Alarmbereitschaft für nukleare Truppen an
@@ -11,6 +19,8 @@
 Wie in den meisten anderen Staaten mit Kernwaffen, gibt es keine offiziellen Zahlen zu russischen Kernwaffenbeständen. Experten der Federation of American Scientists veröffentlichen regelmäßig Schätzungen auf ihrer [Website](https://fas.org/issues/nuclear-weapons/status-world-nuclear-forces/), in den jährlich erscheinenden [Jahrbüchern](https://www.sipri.org/yearbook/2021/10) des Stockholmer Friedensforschungsinstituts SIPRI sowie in regelmäßigen [Artikeln](https://www.tandfonline.com/doi/full/10.1080/00963402.2022.2038907) im Bulletin for the Atomic Scientists.
 
 Nach aktuellen Schätzungen besitzt Russland derzeit rund **6000 Kernwaffen**. Diese lassen sich in drei Kategorien unterteilen: *Strategische Waffen, nicht-strategische Waffen und ausgemusterte Waffen*.
+
+Fast alle der folgenden Informationen basieren auf Arbeiten von Hans Kristensen und Matt Korda der letzten Jahre (Danke!). Das Kapitel ist vor allem Übersetzung und Sortierung, ein Zwerg auf den Schultern von Giganten.
 
 ### Strategische Kernwaffen
 
@@ -31,7 +41,12 @@ Russland besitzt derzeit 306 aktive Interkontinentalraketen, 126 in Silos und 18
 
 Mobile Abschussrampen für Raketen sind schwere LKW, auf denen jeweils eine Rakete geladen ist (Bilder siehe beispielsweise [hier](https://de.wikipedia.org/wiki/Topol-M)). Diese sind immer in Regimenten mit je neun LKW zusammengefasst, und auf den Militärbasen in  Barnaul, Irkutsk, Novosibirsk, Nizhny Tagil, Teykovo, Vypolsovo, und Yoshkar-Ola stationiert. Auf einzelnen Basen finden sich mehrere Regimente (bis zu vier). Im Krisenfall ist vorgesehen, dass die Regimente sich großflächig um die Militärstützpunkte verteilen, um so Angriffe auf die Raketen zu erschweren. Auch nach der Verteiligung können die verladenen Raketen direkt von den LKW gestartet werden. 153 der Raketen auf mobilen Abschussrampen gehören zum Typ SS-27 mod. 2 (mobile Version der Silorakete, mit je 4 Kernwaffen), 18 zum Typ SS-27 mod. 1 (je 1 Kernwaffe) und 9 zum Typ SS-25 (je eine Kernwaffen).
 
+Weitere 26 Interkontinentalraketen durchlaufen derzeit Upgrademaßnahmen.
+
 #### Ballistische Raketen auf U-Booten
+
+
+
 
 #### Strategische Bomber
 
@@ -40,4 +55,6 @@ Mobile Abschussrampen für Raketen sind schwere LKW, auf denen jeweils eine Rake
 ### Ausgemusterte Kernwaffen
 
 Die russischen Bestände umfassen geschätzt 1500 Waffen, die aus dem aktiven Militärdienst ausgemustert wurden. Diese Waffen warten auf ihre Zerlegung, sind bisher aber weitestgehend intakt.
+
+## Einsatzszenarien
 
