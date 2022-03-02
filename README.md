@@ -8,7 +8,7 @@ Der [Autor](https://ifsh.de/personen/kuett) der Website ist Physiker und Politik
 
 1) Aktuelle Entwicklungen
 2) Russische Kernwaffenbestände
-3) Effekte von Kernwaffen
+3) [Effekte von Kernwaffen](https://github.com/ohnemax/kernwaffen-in-russland#effekte-von-kernwaffen)
 
 ## Aktuelle Entwicklungen
 * 24.02.2022: Russische Truppen beginnen einen Einmarsch/Überfall auf die Ukraine
