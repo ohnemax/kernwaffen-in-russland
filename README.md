@@ -8,7 +8,6 @@ Der [Autor](https://ifsh.de/personen/kuett) der Website ist Physiker und Politik
 
 1) Aktuelle Entwicklungen
 2) Russische Kernwaffenbestände
-3) Glossar
 
 ## Aktuelle Entwicklungen
 * 27.02.2022: Präsident Putin ordnet erhöhte Alarmbereitschaft für nukleare Truppen an
@@ -20,7 +19,7 @@ Wie in den meisten anderen Staaten mit Kernwaffen, gibt es keine offiziellen Zah
 
 Nach aktuellen Schätzungen besitzt Russland derzeit rund **6000 Kernwaffen**. Diese lassen sich in drei Kategorien unterteilen: *Strategische Waffen, nicht-strategische Waffen und ausgemusterte Waffen*.
 
-Fast alle der folgenden Informationen basieren auf Arbeiten von Hans Kristensen und Matt Korda der letzten Jahre (Danke!). Das Kapitel ist vor allem Übersetzung und Sortierung, ein Zwerg auf den Schultern von Giganten.
+Fast alle der folgenden Informationen basieren auf Arbeiten von Hans Kristensen und Matt Korda der letzten Jahre (Danke!). Das Kapitel ist vor allem Übersetzung und Sortierung, ein Zwerg auf den Schultern von Giganten.[^notebook2022]
 
 ### Strategische Kernwaffen
 
@@ -61,11 +60,22 @@ Die Flugzeuge sind auf den Luftwaffenstützpunkten Engels und Ukrainka stationie
 
 ### Nicht-strategische Kernwaffen
 
+Russland besitzt rund 2000 sog. nicht-strategische Kernwaffen. Diese Waffen werden oft auch als taktische Kernwaffen bezeichnet. Sie sind für Einsätze in konkreten militärischen Konfliktlagen vorgesehen. Russlands Arsenal nicht-strategischer Waffen umfasst eine große Vielzahl unterschiedlicher Typen. 
+
+Mit **935 Waffen hat die russiche Marine** die meisten Waffen zur Vefügung. Die Marine hat nuklear-bestückte: Marschflugkörper für den Start von Schiffen, Luftabwehrraketen, Anti-U-Boot Waffen, sowie atomare Wasserbomben und Torpedos. Die Waffen können von verschiedenen Schiffstypen eingesetzt werden, darunter U-Boote, Kampfschiffe, Flugzeugträger und marine Flugzeuge. 
+Die meisten Waffen sind für den Einsatz in S-300 und S-400 Flug- und Raketenabwehrsystemen vorgesehen. Diese Systeme sind an [verschiedenen Orten](https://missilethreat.csis.org/russia-nato-a2ad-environment/) in Russland stationiert, insbesondere im Westen Russlands zur Abwehr möglicher Angriffe.
+
+Weitere knapp 70 Waffen sind in einem Raketenabwehrsystem rund um Moskau stationiert. Dieses System wurde in den 80er Jahren eingerichtet, und dient der Abwehr amerikanischer Interkontinentalraketen. Im Falle eines Angriffes auf Moskau würden Abfangraketen starten, und in großer Höhe über der Metropolregion Kernwaffen detonieren. Diese Detonationen sollen dann die ankommenden Raketen zerstören.
+
+
+
 ### Ausgemusterte Kernwaffen
 
 Die russischen Bestände umfassen geschätzt 1500 Waffen, die aus dem aktiven Militärdienst ausgemustert wurden. Diese Waffen warten auf ihre Zerlegung, sind bisher aber weitestgehend intakt. In den ersten Jahren nach Ende des Kalten Krieges wurden in Russland jährlich mehrere tausend Waffen zerlegt. Diese Rate wurde jedoch nicht beibehalten, daher kommt es derzeit zu einem "Zerlegungsstau".
 
 ## Endnoten
+
+[^notebook2022]: Sofern nicht anders gekennzeichnet, stammen die Informationen in diesem Abschnitt aus Kristensen, H.M., Korda, M., 2022. Russian nuclear weapons, 2022. Bulletin of the Atomic Scientists 1–24. https://doi.org/10.1080/00963402.2022.2038907
 
 [^raketentyp]: Für russische Raketen gibt es unterschiedliche Bezeichnungen. Die NATO nutzt Bezeichnungen, die mit "SS" bzw. "AS" beginnen. Die originalen russischen Bezeichnungen beginnen mit "RS" (kyrillisch РС). So hat die Waffe mit der NATO Bezeichnung SS-27 Mod. 2 die russische Bezeichnung RS-24 bzw. in kyrillischer Schrift РС-24). Daneben gibt es noch Bezeichnungen nach dem sog. Grau-Index.
 
