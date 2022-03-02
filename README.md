@@ -6,9 +6,10 @@ Der [Autor](https://ifsh.de/personen/kuett) der Website ist Physiker und Politik
 
 ## Inhalt
 
-1) Aktuelle Entwicklungen
-2) Russische Kernwaffenbestände
+1) [Aktuelle Entwicklungen](#aktuelle-entwicklungen)
+2) [Russische Kernwaffenbestände](#russische-kernwaffenbestände)
 3) [Effekte von Kernwaffen](https://github.com/ohnemax/kernwaffen-in-russland#effekte-von-kernwaffen)
+4) [Befehlsgewalt über Kernwaffen](#befehlsgewalt-über-kernwaffen)
 
 ## Aktuelle Entwicklungen
 * 24.02.2022: Russische Truppen beginnen einen Einmarsch/Überfall auf die Ukraine
@@ -112,6 +113,29 @@ Explodieren Kernwaffen in Städten oder Gebieten mit hohem Infrastrukturanteil (
 
 Während Wissenschaftler:Innen ursprünglich davon ausgingen, dass der Effekt vor allem bei einem globalen nuklearen Schlagabtausch auftritt, ist seit rund 15 Jahren klar, dass auch schon ein regional begrenzter Atomkrieg massive Effekte haben kann. Für einen Krieg zwischen Indien und Pakistan mit insgesamt 100 Kernwaffen sagten Wissenschaftler:Innen eine Senkung der globalen Durchschnittstemperatur um 1,25 Grad vorraus.[^robock2007] Der Temperaturabfall würde mehrere Jahre andauern, und hätte Ernteausfälle und Hungersnöte zur Folge.[^jaegermeyr2020] Neueste Studien zeigen auch, dass ein Nuklearkrieg massive Folgen für die Ozonschicht habe.[^bardeen2021]
 
+## Befehlsgewalt über Kernwaffen
+
+Wer kann einen russischen Kernwaffeneinsatz befehligen? Als sicher gilt, dass der russische Präsident als Oberbefehlshaber der Streitkräfte dazu berechtigt ist. Unklar ist allerdings, ob ein solcher Befehl von einer oder mehreren anderen Personen bestätigt werden müsste. Folgendes Kapitel basiert, sofern nicht anders angegeben, auf dem Report von Jeffrey Lewis und Bruno Tertrais[^lewis-tertrais-finger-on-the-button].
+
+### Entscheidungsträger
+Drei Schlüsselfiguren spielen eine wichtige Rolle bei einen russischen Kernwaffeneinsatz im "Normalfall". (ein Sonderfall wird [weiter unten](#perimetr) behandelt).
+Diese Personen haben jeweils eine Aktentasche (Cheget) zur Verfügung, mit der sie Befehlsgewalt über die Waffen ausüben können.
+Neben dem russische Präsident (Wladimir Putin) haben der russische Verteidigungsminister (Sergey Shoygu) und der Generalstabschef (Armeegeneral Valery Gerasimov) einen solchen Aktenkoffer. 
+
+In einer möglichen Version der Befehlskette würden Präsident und Verteidigungsminister ihre jeweiligen, voneinander unterschiedlichen Startcodes an den Generalstabschef übermitteln. 
+Der Generalstabschef würde die beiden Codes gemeinsam mit seinem eigenen, dritten Code über separate Kommunikationsnetzwerke an die jeweiligen militärischen Einheiten weiterleiten.
+Diese würden den Befehl ausführen und einen Kernwaffeneinsatz initiieren.
+
+Ob Russland aktuell nach dieser Beschreibung handeln würde, ist jedoch unklar. Ob wirklich alle drei Aktenkoffer nötig sind, ist umstritten. Viele Experten sind sich jedoch einig, dass das russische System verhindern soll, das eine einzige Person die Starterlaubnis für Kernwaffen erteilen kann.[^ucs-sole-authority] Unabhängig von der Befehlskette muss auch hervorgehoben werden, dass ein klares Ungleichgewicht und Machtverhältnis zwischen den drei Personen herrscht: der Generalstabschef ist dem Verteidigungsminister unterstellt, welcher wiederum dem Präsidenten unterstellt ist.
+
+Falls der russische Präsident sein Amt nicht ausüben kann, z.B. aus medizinischen Gründen, dann werden alle Rechte und Pflichten, demnach auch die Entscheidungsmacht über Kernwaffeneinsätze, an den russischen Premierminister (Michail Mischustin) übertragen.
+
+### Perimetr System
+Häufig wird die Existenz eines "Totmann-System" in Russland vermutet, welches Kernwaffen automatisch starten würde, wenn die russische Führung nicht mehr erreichbar wäre.
+Ein solches System wurde wahrscheinlich nie installiert. In Russland existiert jedoch das Notfallsystem Perimetr, welches Notfallkommunikation für die russische Kommandostruktur zur Verfügung stellt.
+Die Kommunikation wird durch startende "Perimetr"-Raketen gewährleistet, die nach ihrem Start direkt mit strategischen Waffensystemen kommunizieren und entsprechende Startbefehle weitergeben.
+Damit können solche Befehle auch erteilt werden, wenn andere Kommunikationswege nicht mehr verfügbar sind.[^podvig2001]
+
 ## Endnoten / Referenzen
 
 Oft sind im Text auch schon Links zu weiteren Quellen gesetzt. Für diese wird nicht immer eine extra Endnote angelegt.
@@ -137,5 +161,15 @@ https://doi.org/10.1073/pnas.1919049117
 
 [^bardeen2021]: Bardeen, C.G., Kinnison, D.E., Toon, O.B., Mills, M.J., Vitt, F., Xia, L., Jägermeyr, J., Lovenduski, N.S., Scherrer, K.J.N., Clyne, M., Robock, A., 2021. Extreme Ozone Loss Following Nuclear War Results in Enhanced Surface Ultraviolet Radiation. Journal of Geophysical Research: Atmospheres 126, e2021JD035079. https://doi.org/10.1029/2021JD035079 
 
+[^lewis-tertrais-finger-on-the-button]: Lewis, J. G., Tertrais, B., 2019.
+The Finger on the Button: The Authority to Use Nuclear Weapons in Nuclear-Armed States.
+Middlebury Institute for International Studies at Monterey.
+https://nonproliferation.org/wp-content/uploads/2019/02/Finger-on-the-Nuclear-Button.pdf
 
+[^ucs-sole-authority]: Union of Concerned Scientists, 2017.
+Whose Finger Is on the Button?
+Nuclear Launch Authority in the United States and Other Nations.
+www.ucsusa.org/soleauthority
+
+[^podvig2001]: Bukharin, O., Kadyshev, T., Miasnikov, E., Podvig, P., Sutyagin, I., Tarasenko, M., Zhelezov, B., 2001. Russian strategic nuclear forces. Edited by Pavel Podvig. MIT Press, Cambridge, Mass.
 
