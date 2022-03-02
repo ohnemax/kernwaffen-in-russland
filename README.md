@@ -46,7 +46,7 @@ Weitere 26 Interkontinentalraketen durchlaufen derzeit Upgrademaßnahmen.
 
 Russland besitzt derzeit 10 U-Boote, fünf des Typs Delta IV und fünf des Typs Borei. Alle U-Boote werden durch Kernreaktoren mit Energie versorgt, und haben daher eine große Reichweite und entsprechend lange Einsatzzeit. Nicht alle U-Boote sind einsatzbereit, einzelne befinden sich immer routineäßig in Wartungsarbeiten. Der Bau von fünf weiteren U-Booten der Borei-Klasse ist geplant, bzw. teilweise schon gestartet.
 
-Jedes U-Boot kann mit bis zu 16 ballistischen Raketen beladen werden, die wiederum mit je 4 Kernwaffen (Delta IV) oder je 6 Kernwaffen (Borei) bestückt werden können. Die maximale Kapazität der U-Boote beträgt derzeit 800 Kernwaffen. Aufgrund der Einschränkungen durch den New START Vertrag sind die U-Boote jedoch nicht bis zur maximalen Kapazität im Einsatz, die aktuelle Beladung wird auf weniger als 600 Kernwaffen geschätzt. Weitere Waffen sind in Munitionslagern in der Nähe der Häfen stationiert, und können bei Bedarf auch auf die U-Boote verladen werden.
+Jedes U-Boot kann mit bis zu 16 ballistischen Raketen beladen werden, die wiederum mit je 4 Kernwaffen (Delta IV) oder je 6 Kernwaffen (Borei) bestückt werden können. Die **maximale Kapazität der U-Boote beträgt derzeit 800 Kernwaffen**. Aufgrund der Einschränkungen durch den New START Vertrag sind die U-Boote jedoch nicht bis zur maximalen Kapazität im Einsatz, die aktuelle Beladung wird auf weniger als 600 Kernwaffen geschätzt. Weitere Waffen sind in Munitionslagern in der Nähe der Häfen stationiert, und können bei Bedarf auch auf die U-Boote verladen werden.
 
 Ein Teil der U-Boote ist kontinuierlich in den Meeren der Welt auf Patrouillenfahrt, um vor gegnerischen Angriffen geschützt zu sein. Die Waffen auf den U-Booten sind einsatzbereit, und können bei entsprechendem Befehl innerhalb kurzer Zeit abgefeuert werden. Russische U-Boote in Häfen sind, sofern mit Raketen bestückt, ebenfalls in der Lage, ihre Waffen abzufeuern.
 
@@ -74,9 +74,11 @@ Für alle nicht-strategischen Waffen gilt, dass im Normalfall Trägersysteme und
 
 ### Ausgemusterte Kernwaffen
 
-Die russischen Bestände umfassen geschätzt 1500 Waffen, die aus dem aktiven Militärdienst ausgemustert wurden. Diese Waffen warten auf ihre Zerlegung, sind bisher aber weitestgehend intakt. In den ersten Jahren nach Ende des Kalten Krieges wurden in Russland jährlich mehrere tausend Waffen zerlegt. Diese Rate wurde jedoch nicht beibehalten, daher kommt es derzeit zu einem "Zerlegungsstau".
+Die russischen Bestände umfassen geschätzt **1500 Waffen, die aus dem aktiven Militärdienst ausgemustert wurden**. Diese Waffen warten auf ihre Zerlegung, sind bisher aber weitestgehend intakt. In den ersten Jahren nach Ende des Kalten Krieges wurden in Russland jährlich mehrere tausend Waffen zerlegt. Diese Rate wurde jedoch nicht beibehalten, daher kommt es derzeit zu einem "Zerlegungsstau".
 
-## Endnoten
+## Endnoten / Referenzen
+
+Oft sind im Text auch schon Links zu weiteren Quellen gesetzt. Für diese wird nicht immer eine extra Endnote angelegt.
 
 [^notebook2022]: Sofern nicht anders gekennzeichnet, stammen die Informationen in diesem Abschnitt aus Kristensen, H.M., Korda, M., 2022. Russian nuclear weapons, 2022. Bulletin of the Atomic Scientists 1–24. https://doi.org/10.1080/00963402.2022.2038907
  
