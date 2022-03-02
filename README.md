@@ -2,7 +2,10 @@
 
 Russische Truppen haben am 24.02.2022 einen Angriff auf die Ukraine begonnen. Am 27.02.2022 hat der russische Präsident Putin erhöhte Alarmbereitschaft für russische Kernwaffen befohlen. Aktuell ist unklar, was dieser Befehl genau bedeutet. Diese Website gibt einen Überblick über russische Kernwaffenbestände, Einsatzszenarien, Eskalationsrisiken sowie zu den Auswirkungen von Kernwaffen allgemein.  Die Website erhält regelmäßige [Updates](https://github.com/ohnemax/kernwaffen-in-russland/commits/main).
 
-Der [Autor](https://ifsh.de/personen/kuett) der Website ist Physiker und Politikwissenschaftler, und arbeitet seit 15 Jahren zu Themen mit Bezug zu nuklearer Abrüstung, Rüstungskontrolle und Nichtvertreitung. *Weitere Autor:innen sind herzlich willkommen.* Gerne per Pull-Request Änderungen vorschlagen, oder direkt Kontakt aufnehmen ([Email](mailto:kuett@ifsh.de), [Twitter](https://twitter.com/ohnemax)). 
+Die Autoren: [ohnemax](https://github.com/ohnemax) / [Moritz Kütt](https://ifsh.de/personen/kuett) ist Physiker und Politikwissenschaftler, und arbeitet seit 15 Jahren zu Themen mit Bezug zu nuklearer Abrüstung, Rüstungskontrolle und Nichtvertreitung. 
+[maxschalz](https://github.com/maxschalz) ist Physiker und forscht an neuen Methoden zur nuklearen Verifikation. 
+*Weitere Autor:innen sind herzlich willkommen.* 
+Gerne per Pull-Request Änderungen vorschlagen, oder direkt Kontakt aufnehmen ([Email](mailto:kuett@ifsh.de), [Twitter](https://twitter.com/ohnemax)). 
 
 ## Inhalt
 
