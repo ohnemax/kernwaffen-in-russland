@@ -6,9 +6,10 @@ Der [Autor](https://ifsh.de/personen/kuett) der Website ist Physiker und Politik
 
 ## Inhalt
 
-1) Aktuelle Entwicklungen
-2) Russische Kernwaffenbestände
+1) [Aktuelle Entwicklungen](#aktuelle-entwicklungen)
+2) [Russische Kernwaffenbestände](#russische-kernwaffenbestände)
 3) [Effekte von Kernwaffen](https://github.com/ohnemax/kernwaffen-in-russland#effekte-von-kernwaffen)
+3) [Befehlsgewalt über Kernwaffen](#befehlsgewalt-über-kernwaffen)
 
 ## Aktuelle Entwicklungen
 * 24.02.2022: Russische Truppen beginnen einen Einmarsch/Überfall auf die Ukraine
@@ -112,6 +113,29 @@ Explodieren Kernwaffen in Städten oder Gebieten mit hohem Infrastrukturanteil (
 
 Während Wissenschaftler:Innen ursprünglich davon ausgingen, dass der Effekt vor allem bei einem globalen nuklearen Schlagabtausch auftritt, ist seit rund 15 Jahren klar, dass auch schon ein regional begrenzter Atomkrieg massive Effekte haben kann. Für einen Krieg zwischen Indien und Pakistan mit insgesamt 100 Kernwaffen sagten Wissenschaftler:Innen eine Senkung der globalen Durchschnittstemperatur um 1,25 Grad vorraus.[^robock2007] Der Temperaturabfall würde mehrere Jahre andauern, und hätte Ernteausfälle und Hungersnöte zur Folge. Neueste Studien zeigen auch, dass ein Nuklearkrieg massive Folgen für die Ozonschicht habe.[^bardeen2021]
 
+## Befehlsgewalt über Kernwaffen
+
+Wer kann einen russischen Kernwaffeneinsatz befehligen?
+Als sicher gilt, dass der russische Präsident als Oberbefehlshaber der Streitkräfte dazu berechtigt ist.
+Unklar ist allerdings, ob ein solcher Befehl von einer oder mehreren anderen Personen bestätigt werden müsste.
+
+Folgendes Kapitel basiert, sofern nicht anders angegeben, auf einer Arbeit von Jeffrey Lewis und Bruno Tertrais[^lewis-tertrais-finger-on-the-button].
+
+### Entscheidungsträger
+Vermutlich gibt es drei Schlüsselfiguren, die einen russischen Kernwaffeneinsatz im "Normalfall" erlauben dürften (ein Sonderfall wird [weiter unten](#perimetr) behandelt).
+Als erstes würden der russische Präsident (Wladimir Putin) und der russische Verteidigungsminister (Sergey Shoygu) ihre jeweiligen, voneinander unterschiedlichen Startcodes an den Generalstabschef (Armeegeneral Valery Gerasimov) übermitteln.
+Der Generalstabschef würde die beiden Codes gemeinsam mit seinem eigenen, dritten Code über separate Kommunikationsnetzwerke an die jeweiligen militärischen Einheiten weiterleiten.
+Diese würden den Befehl ausführen und den Nuklearschlag initiieren.
+
+In dieser Befehlskette würde demnach __der Präsident den Einsatz befehligen__[^krankheitsfall-praesident] und __sowohl Verteidigungsminister als auch Generalstabschef müssten den Einsatz bestätigen__.
+Allerdings muss auch hervorgehoben werden, dass ein klares Ungleichgewicht und Machtverhältnis zwischen den drei Personen herrscht: der Generalstabschef ist dem Verteidigungsminister unterstellt, welcher wiederum dem Präsidenten unterstellt ist[^ucs-sole-authority].
+
+### Perimetr
+Einen Sonderfall stellt _Perimetr_ dar.
+Der Kreml oder der Generalstab kann dieses Notfallsystem unter besonderen Umständen aktivieren, z.B., wenn es bestätigte Nuklearexplosionen in Russland gibt oder wenn die Kommunikation mit den politischen oder militärischen Befehlshabern ausgefallen ist.
+In diesem Fall können Offiziere einen Kernwaffeneinsatz befehlen, wobei immer zwei Offiziere den Befehl gemeinsam geben müssen.
+__Unklar ist allerdings, ob das Perimetrsystem überhaupt noch aktiv ist__.
+
 ## Endnoten / Referenzen
 
 Oft sind im Text auch schon Links zu weiteren Quellen gesetzt. Für diese wird nicht immer eine extra Endnote angelegt.
@@ -132,5 +156,14 @@ Oft sind im Text auch schon Links zu weiteren Quellen gesetzt. Für diese wird n
 
 [^bardeen2021]: Bardeen, C.G., Kinnison, D.E., Toon, O.B., Mills, M.J., Vitt, F., Xia, L., Jägermeyr, J., Lovenduski, N.S., Scherrer, K.J.N., Clyne, M., Robock, A., 2021. Extreme Ozone Loss Following Nuclear War Results in Enhanced Surface Ultraviolet Radiation. Journal of Geophysical Research: Atmospheres 126, e2021JD035079. https://doi.org/10.1029/2021JD035079 
 
+[^lewis-tertrais-finger-on-the-button]: Lewis, J. G., Tertrais, B., 2019.
+The Finger on the Button: The Authority to Use Nuclear Weapons in Nuclear-Armed States.
+Middlebury Institute for International Studies at Monterey.
+https://nonproliferation.org/wp-content/uploads/2019/02/Finger-on-the-Nuclear-Button.pdf
 
+[^krankheitsfall-praesident]: Falls der russische Präsident sein Amt nicht ausüben kann, z.B. aus medizinischen Gründen, dann werden alle Rechte und Pflichten, demnach auch die Entscheidungsmacht über Kernwaffeneinsätze, an den russischen Premierminister (Michail Mischustin) übertragen.
 
+[^ucs-sole-authority]: Union of Concerned Scientists, 2017.
+Whose Finger Is on the Button?
+Nuclear Launch Authority in the United States and Other Nations.
+www.ucsusa.org/soleauthority
