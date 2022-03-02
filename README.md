@@ -8,8 +8,10 @@ Der [Autor](https://ifsh.de/personen/kuett) der Website ist Physiker und Politik
 
 1) Aktuelle Entwicklungen
 2) Russische Kernwaffenbestände
+3) Effekte von Kernwaffen
 
 ## Aktuelle Entwicklungen
+* 24.02.2022: Russische Truppen beginnen einen Einmarsch/Überfall auf die Ukraine
 * 27.02.2022: Präsident Putin ordnet erhöhte Alarmbereitschaft für nukleare Truppen an
 * 27.02.2022: [Verfassungsreferendum](https://www.reuters.com/world/europe/launchpad-russias-assault-ukraine-belarus-holds-referendum-renounce-non-nuclear-2022-02-27/) in Belarus hebt vorigen Status als kernwaffenfreies Land auf. Prinzipiell könnten nun in Belarus Kernwaffen anderer Länder stationiert werden.
 
@@ -76,6 +78,40 @@ Für alle nicht-strategischen Waffen gilt, dass im Normalfall Trägersysteme und
 
 Die russischen Bestände umfassen geschätzt **1500 Waffen, die aus dem aktiven Militärdienst ausgemustert wurden**. Diese Waffen warten auf ihre Zerlegung, sind bisher aber weitestgehend intakt. In den ersten Jahren nach Ende des Kalten Krieges wurden in Russland jährlich mehrere tausend Waffen zerlegt. Diese Rate wurde jedoch nicht beibehalten, daher kommt es derzeit zu einem "Zerlegungsstau".
 
+## Effekte von Kernwaffen
+
+Der Einsatz von Kernwaffen hat katastrophale Auswirkungen. Effekte des Einsatzes von Kernwaffen sind sowohl unmittelbar als auch verzögert wirksam, und haben fast immer globale Auswirkungen.[^glassstone]
+
+Die Explosion einer Kernwaffen führt, wie bei Explosionen konventioneller Sprengstoffe, zu einer sich kugelförmig ausbreitenden Druckwelle, die Gebäude zerstören und Menschen verletzen und töten kann. Eine Kernwaffenexplosion hat jedoch noch weitere Effekte, die fundamental unterschiedlich zu den Effekten konventioneller Waffen sind. Die Energie für die Explosion einer Kernwaffe wird durch Spaltungs- und Fusionsreaktionen der Atomkerne von Kernwaffenmaterialien freigesetzt. Grundsätzlich hat eine Kernwaffe vier Effekte: Thermische Strahlung, Druckwelle, unmittelbare Radioaktive Strahlung und verzögerter Fallout. Werden mehrere Kernwaffen eingesetzt, gibt es globale, klimatische Effekte ("Nuklearer Winter").
+
+### Thermische Strahlung
+
+Die Kernreaktionen bei der Explosion führen zu Temperaturen im Waffenbereich von mehreren Millionen Grad. Durch die Kernreaktionen wird außerdem Gammastrahlung frei, die die Luft in der Umgebung der Waffe aufheizt. Die aufgeheizte Luft form einen *Feuerball*, der sich kontinuierlich weiter ausdehnt. Der Feuerball hat eine helle Oberfläche, zu Beginn vielfach heller als die Sonne. Die Thermische Strahlung trägt *35 bis 45 Prozent der Explosionsenergie* vom Explosionsort.
+
+Der Feuerball selbst gibt UV-Licht, sichtbares Licht und Infrarot-Strahlung ab. Zunächst durch einen sehr kurzen Puls ("Lichtblitz"), vorrangig aus UV-Licht. Die Effekte dieses Blitzes sind im Vergleich zu den anderen Effekten vernachlässigbar. Personen, die zum Explosionszeitpunkt in die Waffe schauen, können dadurch erblinden. Anschließend kommt es zu einem längeren, zweiten Puls, der rund 99% der Energie der thermischen Strahlung transportiert. Menschen erleiden Verbrennungen, Gegenstände und Gebäude können durch diesen Puls in Brand gesetzt werden. Thermische Strahlung breitet sich mit Lichtgeschwindigkeit aus.
+
+Diese Brände können im Verlauf der weiteren Effekte einen Feuersturm auslösen. Bei einem Feuersturm brennen Gebäude in einem größeren Gebiet. Die beim Brand entstehenden Gase steigen rasch nach oben, und sauge dadurch frische Luft aus der Umgebung heran. Durch diesen Effekt kommt es zu starken Winden in Richtung des Explosionsortes, und das große Feuer ist nur sehr schwer zu löschen.
+
+### Druckwelle
+
+Nach der Entstehung des Feuerballs folgt eine Druckwelle. Die Druckwelle breitet sich mit Geschwindigkeiten aus, die in etwa der Schallgeschwindigkeit entsprechen. Wenn die Druckwelle Objekte passiert, kommt es zuerst zu einem hohen Überdruck, der abgeschlossene Objekte zerstören kann. So bersten z.B. Scheiben an Häusern, oder die Häuser werden komplett zerstört. Anschließend gibt es einen dynamischen Druckabfall ("Wind"), der Sachen umherwirbelt und so zu weiteren Schäden und Verletzungen führen kann. *40 bis 50 Prozent der Explosionsenergie* wird von der Druckwelle übernommen.
+
+Die Effekte von Druckwelle und Feuerball überlagern sich. So kann es dazu kommen, dass durch die thermische Strahlung entzündete Objekte durch die Druckwelle wieder gelöscht werden. Grundsätzlich ist es aber meist so, dass die Effekte sich gegenseitig verstärken. So kann etwa auch ein Feuer durch brechende Gas- und Treibstoffleitungen weiter angefacht werden.
+
+### Unmittelbare Radioaktive Strahlung
+
+Die Fusions- und Kernspaltungsreaktionen in der Kernwaffe erzeugen hohe Mengen an Strahlung, bestehend aus Gammateilchen und Neutronen. Während diese zum Teil mittelbar zu anderen Effekten führen, wie etwa dem Feuerball oder dem radioaktiven Fallout, wird ein weiterer Teil auch direkt emittiert. Diese Strahlung kann zu akuter Strahlenkrankheit führen, oder auch zu langfristigen Erkrankungen wie Leukämie und Krebs. Der Effekt tritt bei allen Kernwaffengrößen auf, rund **5 Prozent der Explosionsenergie** werden durch unmittelbare radioaktive Strahlung freigesetzt.
+
+### Radioaktiver Fallout
+
+Radioaktiver Fallout, oder auch radioaktiver Niederschlag, tritt verzögert nach der Kernwaffenexplosion auf. Nicht alle Explosionen erzeugen Fallout. Kernwaffen können entweder bei Aufschlag auf dem Boden gezündet werden, oder noch in der Luft. Explosionen in der Luft sorgen für größere Zerstörungsradien der anderen Effekte. Explosionen am Boden erzeugen den größten Fallout. Radioaktiver Niederschlag entsteht durch die Aktivierung von Material um den Explosionspunkt. Aktivierung bedeutet, dass die in einer Kernwaffenexplosion erzeugten Neutronen auf andere Atome treffen, von diesen aborbiert werden und sie so radioaktiv werden lassen. Dieses radioaktive Material wird dann von der Explosion in die Atmosphäre getragen. In den Stunden und Tagen nach der Explosion fällt es dann langsam wieder herab, oder wird durch Regen ausgewaschen. Bis zum Herabfallen kann das Material durch Wind vom eigentlich Explosionsort weg transportiert werden. Der radioaktive Fallout kommt dadurch nicht nur später, sondern auch an Orten unabhängig von der Explosion. Abhängig von der Größe der Waffe ist Fallout auch noch hunderte Kilometer vom Explosionsort entfernt möglich. **10 Prozent der Explosionsenergie tragen zum Radioaktiven Fallout bei.**
+
+### Nuklearer Winter
+
+Explodieren Kernwaffen in Städten oder Gebieten mit hohem Infrastrukturanteil (z.B. Militärbasen, Industriegebiete) kommt es fast immer zu großen Bränden. Diese Feuer produzieren enorme Aschemengen, die, insbesondere bei Feuerstürmen, in hohe Atmosphärenschichten getragen werden. In diesen Schichten können die Aschepartikel über mehrere Jahre verbleiben, da sie nicht mehr durch Regen ausgewaschen werden können. In den Tagen und Wochen nach den Explosionen verteilen sich die Partikel rund um die Erde. Die Partikel in der Atmosphäre verdunkeln die Sonnenstrahlung, ähnlich großen Vulkanausbrüchen. Es kommt durch diesen Schatten zu Temperatureinbrüchen und Klimaveränderungen.[^robockgeneral]
+
+Während Wissenschaftler:Innen ursprünglich davon ausgingen, dass der Effekt vor allem bei einem globalen nuklearen Schlagabtausch auftritt, ist seit rund 15 Jahren klar, dass auch schon ein regional begrenzter Atomkrieg massive Effekte haben kann. Für einen Krieg zwischen Indien und Pakistan mit insgesamt 100 Kernwaffen sagten Wissenschaftler:Innen eine Senkung der globalen Durchschnittstemperatur um 1,25 Grad vorraus.[^robock2007] Der Temperaturabfall würde mehrere Jahre andauern, und hätte Ernteausfälle und Hungersnöte zur Folge. Neueste Studien zeigen auch, dass ein Nuklearkrieg massive Folgen für die Ozonschicht habe.[^bardeen2021]
+
 ## Endnoten / Referenzen
 
 Oft sind im Text auch schon Links zu weiteren Quellen gesetzt. Für diese wird nicht immer eine extra Endnote angelegt.
@@ -87,6 +123,14 @@ Oft sind im Text auch schon Links zu weiteren Quellen gesetzt. Für diese wird n
 [^alcmrange]: Die Reichweite der AS-15 Kent (Kh-55) wird mit 2500 km angegeben (https://missilethreat.csis.org/missile/kh-55/), die der neueren AS-23B (Kh-102) mit 2500km bis 2800km (https://missilethreat.csis.org/missile/kh-101-kh-102/)
 
 [^lockthemup]: Podvig, P., Serrat, J., 2017. Lock them Up : Zero-deployed Non-strategic Nuclear Weapons in Europe (UNIDIR Resources). United Nations Institute for Disarmament Research. http://www.unidir.org/files/publications/pdfs/lock-them-up-zero-deployed-non-strategic-nuclear-weapons-in-europe-en-675.pdf
+
+[^glassstone]: Ein klassisches Standardwerk zur Beschreibung der Effekte von Kernwaffen ist: Glasstone, S., Dolan, P.J., 1977. The Effects of Nuclear Weapons, 3rd ed. United States Department of Defense and the Energy Research and Development Administration.
+
+[^robockgeneral]: Überblicksartikel zu nuklearem Winter: Robock, A., 2010. Nuclear winter. WIREs Climate Change 1, 418–427. https://doi.org/10.1002/wcc.45
+
+[^robock2007]: Robock, A., Oman, L., Stenchikov, G.L., Toon, O.B., Bardeen, C., Turco, R.P., 2007. Climatic consequences of regional nuclear conflicts. Atmospheric Chemistry and Physics 7, 2003–2012. https://doi.org/10.5194/acp-7-2003-2007
+
+[^bardeen2021]: Bardeen, C.G., Kinnison, D.E., Toon, O.B., Mills, M.J., Vitt, F., Xia, L., Jägermeyr, J., Lovenduski, N.S., Scherrer, K.J.N., Clyne, M., Robock, A., 2021. Extreme Ozone Loss Following Nuclear War Results in Enhanced Surface Ultraviolet Radiation. Journal of Geophysical Research: Atmospheres 126, e2021JD035079. https://doi.org/10.1029/2021JD035079 
 
 
 
