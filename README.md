@@ -131,10 +131,9 @@ Ob Russland aktuell nach dieser Beschreibung handeln würde, ist jedoch unklar. 
 Falls der russische Präsident sein Amt nicht ausüben kann, z.B. aus medizinischen Gründen, dann werden alle Rechte und Pflichten, demnach auch die Entscheidungsmacht über Kernwaffeneinsätze, an den russischen Premierminister (Michail Mischustin) übertragen.
 
 ### Perimetr System
-Häufig wird die Existenz eines "Totmann-System" in Russland vermutet, welches Kernwaffen automatisch starten würde, wenn die russische Führung nicht mehr erreichbar wäre.
-Ein solches System wurde wahrscheinlich nie installiert. In Russland existiert jedoch das Notfallsystem Perimetr, welches Notfallkommunikation für die russische Kommandostruktur zur Verfügung stellt.
-Die Kommunikation wird durch startende "Perimetr"-Raketen gewährleistet, die nach ihrem Start direkt mit strategischen Waffensystemen kommunizieren und entsprechende Startbefehle weitergeben.
-Damit können solche Befehle auch erteilt werden, wenn andere Kommunikationswege nicht mehr verfügbar sind.[^podvig2001]
+In Russland existiert das Notfallsystem Perimetr, welches Notfallkommunikation für die russische Kommandostruktur zur Verfügung stellt.
+Die Kommunikation wird durch startende "Perimetr"-Raketen gewährleistet, die nach aus der Luft direkt mit strategischen Waffensystemen kommunizieren und entsprechende Startbefehle weitergeben. Damit können solche Befehle auch erteilt werden, wenn andere Kommunikationswege nicht mehr verfügbar sind.
+In einem geplanten Modus des Perimeter Systems konnte dieses Kommandoraketen auch automatisch starten. Damit käme es einem "Totmann-System" gleich, dass Kernwaffen automatisch starten würde, wenn die russische Führung nicht mehr erreichbar wäre. Es ist jedoch nicht bekannt, dass ein solcher automatischer Modus in der Vergangenheit installiert und aktiviert wurde. [^podvig2001]
 
 ## Endnoten / Referenzen
 
