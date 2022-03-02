@@ -110,7 +110,7 @@ Radioaktiver Fallout, oder auch radioaktiver Niederschlag, tritt verzögert nach
 
 Explodieren Kernwaffen in Städten oder Gebieten mit hohem Infrastrukturanteil (z.B. Militärbasen, Industriegebiete) kommt es fast immer zu großen Bränden. Diese Feuer produzieren enorme Aschemengen, die, insbesondere bei Feuerstürmen, in hohe Atmosphärenschichten getragen werden. In diesen Schichten können die Aschepartikel über mehrere Jahre verbleiben, da sie nicht mehr durch Regen ausgewaschen werden können. In den Tagen und Wochen nach den Explosionen verteilen sich die Partikel rund um die Erde. Die Partikel in der Atmosphäre verdunkeln die Sonnenstrahlung, ähnlich großen Vulkanausbrüchen. Es kommt durch diesen Schatten zu Temperatureinbrüchen und Klimaveränderungen.[^robockgeneral]
 
-Während Wissenschaftler:Innen ursprünglich davon ausgingen, dass der Effekt vor allem bei einem globalen nuklearen Schlagabtausch auftritt, ist seit rund 15 Jahren klar, dass auch schon ein regional begrenzter Atomkrieg massive Effekte haben kann. Für einen Krieg zwischen Indien und Pakistan mit insgesamt 100 Kernwaffen sagten Wissenschaftler:Innen eine Senkung der globalen Durchschnittstemperatur um 1,25 Grad vorraus.[^robock2007] Der Temperaturabfall würde mehrere Jahre andauern, und hätte Ernteausfälle und Hungersnöte zur Folge. Neueste Studien zeigen auch, dass ein Nuklearkrieg massive Folgen für die Ozonschicht habe.[^bardeen2021]
+Während Wissenschaftler:Innen ursprünglich davon ausgingen, dass der Effekt vor allem bei einem globalen nuklearen Schlagabtausch auftritt, ist seit rund 15 Jahren klar, dass auch schon ein regional begrenzter Atomkrieg massive Effekte haben kann. Für einen Krieg zwischen Indien und Pakistan mit insgesamt 100 Kernwaffen sagten Wissenschaftler:Innen eine Senkung der globalen Durchschnittstemperatur um 1,25 Grad vorraus.[^robock2007] Der Temperaturabfall würde mehrere Jahre andauern, und hätte Ernteausfälle und Hungersnöte zur Folge.[^jaegermeyr2020] Neueste Studien zeigen auch, dass ein Nuklearkrieg massive Folgen für die Ozonschicht habe.[^bardeen2021]
 
 ## Endnoten / Referenzen
 
@@ -129,6 +129,11 @@ Oft sind im Text auch schon Links zu weiteren Quellen gesetzt. Für diese wird n
 [^robockgeneral]: Überblicksartikel zu nuklearem Winter: Robock, A., 2010. Nuclear winter. WIREs Climate Change 1, 418–427. https://doi.org/10.1002/wcc.45
 
 [^robock2007]: Robock, A., Oman, L., Stenchikov, G.L., Toon, O.B., Bardeen, C., Turco, R.P., 2007. Climatic consequences of regional nuclear conflicts. Atmospheric Chemistry and Physics 7, 2003–2012. https://doi.org/10.5194/acp-7-2003-2007
+
+[^jaegermeyr2020]: Jägermeyr, J., Robock, A., Elliott, J., et al., 2020.
+A regional nuclear conflict would compromise global food security.
+PNAS 117 (13).
+https://doi.org/10.1073/pnas.1919049117
 
 [^bardeen2021]: Bardeen, C.G., Kinnison, D.E., Toon, O.B., Mills, M.J., Vitt, F., Xia, L., Jägermeyr, J., Lovenduski, N.S., Scherrer, K.J.N., Clyne, M., Robock, A., 2021. Extreme Ozone Loss Following Nuclear War Results in Enhanced Surface Ultraviolet Radiation. Journal of Geophysical Research: Atmospheres 126, e2021JD035079. https://doi.org/10.1029/2021JD035079 
 
