@@ -88,6 +88,8 @@ Der Einsatz von Kernwaffen hat katastrophale Auswirkungen. Effekte des Einsatzes
 
 Die Explosion einer Kernwaffen führt, wie bei Explosionen konventioneller Sprengstoffe, zu einer sich kugelförmig ausbreitenden Druckwelle, die Gebäude zerstören und Menschen verletzen und töten kann. Eine Kernwaffenexplosion hat jedoch noch weitere Effekte, die fundamental unterschiedlich zu den Effekten konventioneller Waffen sind. Die Energie für die Explosion einer Kernwaffe wird durch Spaltungs- und Fusionsreaktionen der Atomkerne von Kernwaffenmaterialien freigesetzt. Grundsätzlich hat eine Kernwaffe vier Effekte: Thermische Strahlung, Druckwelle, unmittelbare Radioaktive Strahlung und verzögerter Fallout. Werden mehrere Kernwaffen eingesetzt, gibt es globale, klimatische Effekte ("Nuklearer Winter").
 
+Für eine kurze, multimediale Zusammenfassung der Effekte von Kernwaffen sind die beiden folgenden Videos empfehlenswert: [Video des IFSH](https://www.youtube.com/watch?v=ytqw4tklBLk) und [Video von Dinge Erklärt - Kurz gesagt](https://www.youtube.com/watch?v=NBeeRVkTeJg).
+
 ### Thermische Strahlung
 
 Die Kernreaktionen bei der Explosion führen zu Temperaturen im Waffenbereich von mehreren Millionen Grad. Durch die Kernreaktionen wird außerdem Gammastrahlung frei, die die Luft in der Umgebung der Waffe aufheizt. Die aufgeheizte Luft form einen *Feuerball*, der sich kontinuierlich weiter ausdehnt. Der Feuerball hat eine helle Oberfläche, zu Beginn vielfach heller als die Sonne. Die Thermische Strahlung trägt **35 bis 45 Prozent der Explosionsenergie** vom Explosionsort.
