@@ -1,0 +1,386 @@
+#+TITLE: Russland und Kernwaffen
+#+AUTHOR: Moritz Kütt (kuett@ifsh.de)
+#+DATE: 16. März 2022
+#+BEAMER_HEADER: \institute{Institut für Friedensforschung und Sicherheitspolitik an der Universität Hamburg}
+#+STARTUP: beamer
+#+OPTIONS: H:2 toc:\nil num:t ':t
+#+LATEX_CLASS: beamer
+#+LATEX_CLASS_OPTIONS: [10pt]
+#+LATEX_COMPILER: xelatex
+#+BEAMER_THEME: metropolis[titleformat=smallcaps,sectionpage=none,progressbar=frametitle]
+#+BEAMER_HEADER: \usepackage{orgbeamerdefaults}
+#+BEAMER_HEADER: \newcommand{\imagepath}{/home/moritz/Documents/publication_talks/0000_Images/}
+#+BEAMER_HEADER: \setsansfont[ItalicFont={Fira Sans Condensed Italic},BoldFont={Fira Sans Medium},BoldItalicFont={Fira Sans Medium Italic}]{Fira Sans Condensed}
+
+#+BEAMER_HEADER: \usepackage[none]{hyphenat}
+#+BEAMER_HEADER: \usepackage{multirow}
+
+#+BEAMER_HEADER: \usepackage{printlen}
+#+BEAMER_HEADER: \usepackage{isotope}
+#+BEAMER_HEADER: \usepackage{siunitx}
+
+#+BEAMER_HEADER: \tcbset{fullimagebox/.style={width=0.6\linewidth, standard jigsaw, arc=0pt, center upper,opacityframe=0.9, opacityback=0.7}}
+#+BEAMER_HEADER: \newenvironment<>{varblock}[2][.9\textwidth]{%
+#+BEAMER_HEADER: \begin{center}
+#+BEAMER_HEADER: \setlength{\textwidth}{#1}
+#+BEAMER_HEADER:   \begin{actionenv}#3% 
+#+BEAMER_HEADER:    \def\insertblocktitle{#2}%
+#+BEAMER_HEADER:     \par%
+#+BEAMER_HEADER:     \usebeamertemplate{block begin}}
+#+BEAMER_HEADER:   {\par%
+#+BEAMER_HEADER:     \usebeamertemplate{block end}%
+#+BEAMER_HEADER:    \end{actionenv}\end{center}}
+#+BEAMER_HEADER: \tcbset{
+#+BEAMER_HEADER: tcbeamer/.style={
+#+BEAMER_HEADER: %  beamer,
+#+BEAMER_HEADER:   width=\textwidth+3pt,
+#+BEAMER_HEADER:   enlarge left by=-3pt,
+#+BEAMER_HEADER:   bottom=0pt,
+#+BEAMER_HEADER:   top=0pt,
+#+BEAMER_HEADER:   left=1pt,
+#+BEAMER_HEADER:   right=1pt,
+#+BEAMER_HEADER:   arc=0pt,
+#+BEAMER_HEADER:   outer arc=0pt,
+#+BEAMER_HEADER:   toptitle=0pt,
+#+BEAMER_HEADER:   bottomtitle=-1pt,
+#+BEAMER_HEADER:   boxrule=0mm,
+#+BEAMER_HEADER:   titlerule=1mm, 
+#+BEAMER_HEADER:   toptitle=0.5mm,
+#+BEAMER_HEADER: %  fonttitle=\bfseries,
+#+BEAMER_HEADER:   flushleft title
+#+BEAMER_HEADER:   }
+#+BEAMER_HEADER: }
+#+BEAMER_HEADER: \definecolor{wc1}{HTML}{BE7C4D}
+#+BEAMER_HEADER: \definecolor{wc2}{HTML}{353238}
+#+BEAMER_HEADER: \definecolor{wc3}{HTML}{92140C}
+
+* Intro
+** Question: Nuclear Forces                                     :B_fullframe:
+   :PROPERTIES:
+   :BEAMER_env: fullframe
+   :BEAMER_opt: standout
+   :END:
+
+   Am 27. Februar hat Russlands Präsident Putin "besondere Alarmbereitschaft" für die "Abschreckungskräfte" @@latex:\\@@ der Armee angeordnet.
+
+   \pause
+   
+   Welche Kernwaffen hat Russland?
+   
+** 00 / Plain                                                   :B_fullframe:
+:PROPERTIES:
+:BEAMER_env: fullframe
+:END:
+
+#+BEGIN_EXPORT latex
+\begin{tikzpicture}[remember picture, overlay, shift={(current page.south west)}]
+
+  \node at (0.5\paperwidth, 0.9\paperheight) [font=\bfseries\Large] {
+    Russland hat etwa 6000 Kernwaffen
+  };
+  \node at (current page.center) [] {
+    \includegraphics[width=0.98\paperwidth]{00.pdf}
+  };
+
+\node at (0.5\paperwidth, 1.1) [anchor=north, text width=0.9\paperwidth, align=center, color=fg] {
+\footnotesize Daten aus: Kristensen, H.M., Korda, M., 2022. Russian nuclear weapons, 2022. \\ Bulletin of the Atomic Scientists 1–24. https://doi.org/10.1080/00963402.2022.2038907\\
+};
+  
+  % \helpgridcornerdense[gray]
+  % \helpgridcorner[black]
+\end{tikzpicture}
+
+#+END_EXPORT
+
+** 01 / Disarmament                                             :B_fullframe:
+:PROPERTIES:
+:BEAMER_env: fullframe
+:END:
+
+#+BEGIN_EXPORT latex
+\begin{tikzpicture}[remember picture, overlay, shift={(current page.south west)}]
+
+  \node at (0.5\paperwidth, 0.9\paperheight) [font=\bfseries\Large] {
+    1500 ältere Waffen warten auf Zerlegung
+  };
+
+  \node at (current page.center) [] {
+    \includegraphics[width=0.98\paperwidth]{01.pdf}
+  };
+
+  \node at (0.5\paperwidth, 1.1) [anchor=north, text width=0.9\paperwidth, align=center, color=fg] {
+\footnotesize Daten aus: Kristensen, H.M., Korda, M., 2022. Russian nuclear weapons, 2022. \\ Bulletin of the Atomic Scientists 1–24. https://doi.org/10.1080/00963402.2022.2038907\\
+};
+
+  % \helpgridcornerdense[gray]
+  % \helpgridcorner[black]
+\end{tikzpicture}
+
+#+END_EXPORT
+
+** 02, 03, 04, 05, 06 / Strategic / Tactical                    :B_fullframe:
+:PROPERTIES:
+:BEAMER_env: fullframe
+:END:
+
+#+BEGIN_EXPORT latex
+\begin{tikzpicture}[remember picture, overlay, shift={(current page.south west)}]
+  \node at (0.5\paperwidth, 0.9\paperheight) [text width=0.95\paperwidth, font=\bfseries\Large] {
+  Verbleibendes Arsenal: \\ \textcolor{wc1}{Strategische} und \textcolor{wc2}{Taktische} Kernwaffen
+  };
+  \node<1-2> at (current page.center) [] {
+    \includegraphics[width=0.98\paperwidth]{02.pdf}
+  };
+  \node<3> at (current page.center) [] {
+    \includegraphics[width=0.98\paperwidth]{03.pdf}
+  };
+  \node<4> at (current page.center) [] {
+    \includegraphics[width=0.98\paperwidth]{04.pdf}
+  };
+  \node<5> at (current page.center) [] {
+    \includegraphics[width=0.98\paperwidth]{05.pdf}
+  };
+  \node<6-> at (current page.center) [] {
+    \includegraphics[width=0.98\paperwidth]{06.pdf}
+  };
+  % \node at (8.3, 6) {
+  %     \begin{boxhalo}[width=5cm, fontupper=\small, halign=center] 
+  %     Tactical weapons are stored in central storage locations.
+  %     \end{boxhalo}
+  % };
+  \node<2-> at (7.2, 5.1) {
+      \begin{boxhalo}[width=4.4cm, fontupper=\small, halign=center] 
+      Taktische Kernwaffen: \\ In zentralen Waffenlagern.
+      \end{boxhalo}
+  };
+
+  % \node<4-> at (7.2, 1.7) {
+  %     \begin{boxhalo}[width=4.2cm, fontupper=\small, halign=center] 
+  %     Russia can launch strategic weapons within minutes.
+  %     \end{boxhalo}
+  % };
+
+\node at (0.5\paperwidth, 1.1) [anchor=north, text width=0.9\paperwidth, align=center, color=fg] {
+\footnotesize Daten aus: Kristensen, H.M., Korda, M., 2022. Russian nuclear weapons, 2022. \\ Bulletin of the Atomic Scientists 1–24. https://doi.org/10.1080/00963402.2022.2038907\\
+};
+  
+% \helpgridcornerdense[gray]
+  % \helpgridcorner[black]
+\end{tikzpicture}
+
+#+END_EXPORT
+
+** 07, 08, 09, 10, Deployed / Non-Deployed                      :B_fullframe:
+:PROPERTIES:
+:BEAMER_env: fullframe
+:END:
+
+#+BEGIN_EXPORT latex
+\begin{tikzpicture}[remember picture, overlay, shift={(current page.south west)}]
+
+  \node at (0.5\paperwidth, 0.9\paperheight) [text width=0.95\paperwidth, font=\bfseries\Large] {
+  Unterteilung bei strategischen Kernwaffen: \\
+  \textcolor{wc1}{Einsatzbereit} bzw. \textcolor{wc3}{Nicht einsatzbereit}
+  };
+
+  \node<1-2> at (current page.center) [] {
+    \includegraphics[width=0.98\paperwidth]{07.pdf}
+  };
+  \node<3> at (current page.center) [] {
+    \includegraphics[width=0.98\paperwidth]{08.pdf}
+  };
+  \node<4> at (current page.center) [] {
+    \includegraphics[width=0.98\paperwidth]{09.pdf}
+  };
+  \node<5> at (current page.center) [] {
+    \includegraphics[width=0.98\paperwidth]{10.pdf}
+  };
+  \node<6> at (current page.center) [] {
+    \includegraphics[width=0.98\paperwidth]{11.pdf}
+  };
+  
+  \node<1-> at (7.2, 5.1) {
+      \begin{boxhalo}[width=4.2cm, fontupper=\small, halign=center] 
+      Taktische Kernwaffen: \\ In zentralen Waffenlagern
+      \end{boxhalo}
+  };
+  
+  \node<2-> at (7.2, 1.7) {
+      \begin{boxhalo}[width=4.2cm, fontupper=\small, halign=center] 
+      Start von strategischen Waffen binnen Minuten möglich
+      \end{boxhalo}
+  };
+
+\node at (0.5\paperwidth, 1.1) [anchor=north, text width=0.9\paperwidth, align=center, color=fg] {
+\footnotesize Daten aus: Kristensen, H.M., Korda, M., 2022. Russian nuclear weapons, 2022. \\ Bulletin of the Atomic Scientists 1–24. https://doi.org/10.1080/00963402.2022.2038907\\
+};
+
+  % \helpgridcornerdense[gray]
+  % \helpgridcorner[black]
+\end{tikzpicture}
+
+#+END_EXPORT
+
+** Question: C & C                                              :B_fullframe:
+   :PROPERTIES:
+   :BEAMER_env: fullframe
+   :BEAMER_opt: standout
+   :END:
+
+   Am 28. Februar meldet @@latex:\\@@ Verteidigungsminister Shoigu, 
+   dass zusätzliches Personal an den nuklearen Befehlsstellen bereit steht.@@latex:\\[1.5em]@@
+
+   \pause
+   
+   Wie sieht Russlands nukleare\\
+   Befehlskette aus?
+
+** Football                                                 :B_ignoreheading:
+:PROPERTIES:
+:BEAMER_env: ignoreheading
+:END:
+
+#+BEGIN_EXPORT latex
+{
+\usebackgroundtemplate{\includegraphics[height=\paperheight]{football.png}}
+\begin{frame}{}
+% 12.8cm pagewidth
+\begin{tikzpicture}[remember picture, overlay, shift={(current page.south west)}]
+
+  \node<1-> at (0.5\paperwidth, 8.6) [anchor=north]{
+      \begin{boxhalo}[width=7.2cm, halign=flush left, fontupper=\normalsize] 
+      \textbf{Russische Befehlskette}\\[0.4em]
+      \small
+      Drei Personen (Präsident, Verteidigungsminister, Generalstabschef) haben spezielle Aktenkoffer ("Cheget"), mit der sie Befehlsgewalt über Waffen ausüben können.\\[1.4em] 
+      Ob wirklich alle drei Aktenkoffer nötig sind, ist umstritten.\\[1.4em]
+      "Perimetr" stellt Notfallkommunikation für die russische Kommandostruktur zur Verfügung. Es ist nicht bekannt, dass ein automatischer Modus ("Totmann-System") aktiviert wurde.\\[1.4em]
+      \footnotesize
+      Aus: Podvig, P. (ed.), 2001. Russian strategic nuclear forces. MIT Press, Cambridge, Mass.
+      \end{boxhalo}
+  };
+
+% \node at (0.5\paperwidth, 1.4) [anchor=north, align=flush left, color=white] {
+% \footnotesize 
+% };
+  
+\node at (current page.south west) [anchor=south west, text width=7cm, align=flush left, color=white] {
+\tiny Bild: www.thenuclearbiscuit.org\\
+};
+%\helpgridcornerdense[gray]
+%\helpgridcorner[black]
+
+\end{tikzpicture}
+
+
+\end{frame}
+}
+#+END_EXPORT
+
+** Question: Escalate                                           :B_fullframe:
+   :PROPERTIES:
+   :BEAMER_env: fullframe
+   :BEAMER_opt: standout
+   :END:
+
+   Wie (und warum) würde Russland den Krieg nuklear eskalieren lassen?
+     
+** Eskalationsrisiken
+*** Columns							  :B_columns:
+:PROPERTIES:
+:BEAMER_env: columns
+:BEAMER_opt: T
+:END:      
+**** Wie würde eine Eskalation aussehen?                      :B_block:BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.5
+:BEAMER_env: block
+:END:
+\vspace{0.7cm}
+
+Putin/Russland könnte... @@latex:\\[0.5em]@@
+...taktische Kernwaffen in der Ukraine einsetzen;@@latex:\\[0.5em]@@
+...europäische (Militär-)installationen mit Kernwaffen angreifen;@@latex:\\[0.5em]@@
+...direkt die USA angreifen (nuklear).
+
+
+**** Warum könnte Eskalation stattfinden?                     :B_block:BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.5
+:BEAMER_env: block
+:END:
+\pause
+
+\vspace{0.3cm}
+
+Russland könnte... @@latex:\\[0.5em]@@
+...westliche Sanktionen als militärische Bedrohung wahrnehmen @@latex:\\@@
+...Waffenlieferungen an die Ukraine als Bedrohung wahrnehmen @@latex:\\@@
+...westliche Signale missverstehen (oder umgekehrt) @@latex:\\@@
+...westliche Aufrüstung als Bedrohung wahrnehmen  @@latex:\\@@
+
+** Question: What to do?                                        :B_fullframe:
+   :PROPERTIES:
+   :BEAMER_env: fullframe
+   :BEAMER_opt: standout
+   :END:
+
+   Was ist zu tun?
+
+** Was ist zu tun?
+#+BEAMER: \begin{center}
+\alert{USA, NATO, Deutschland:} Abwarten. @@latex:\\@@
+Eine nukleare Eskalation muss verhindert werden.@@latex:\\[0.5em]@@
+Prinzipiell könnten westliche Staaten schon jetzt deklarieren, dass sie unter keinen Umständen Kernwaffen einsetzen werden.@@latex:\\[1.5em]@@
+\alert{Russland:} \LARGE Stoppt den Krieg!@@latex:\\[1.5em]@@
+\pause
+
+\normalsize
+\alert{PhysikerInnen:} Aufklärung zu den Folgen von Kernwaffeneinsätzen @@latex:\\[1.5em]@@
+
+\pause
+
+Kontakt: kuett@ifsh.de
+#+BEAMER: \end{center}
+
+** Fin                                                             :noexport:
+#+BEGIN_EXPORT latex
+What are the Russian nuclear forces?\\[1em]
+
+What is Russia's Command and Control Structure?\\[1em]
+
+How (and why) would Russia escalate the war to a nuclear war?\\[1em]
+
+What to do?\\[2em]
+
+\alert{Contact}: kuett@ifsh.de
+#+END_EXPORT
+
+
+
+* Appendix                                                       :B_appendix:
+:PROPERTIES:
+:BEAMER_env: appendix
+:END:
+
+** Ranges                                                   :B_ignoreheading:
+:PROPERTIES:
+:BEAMER_env: ignoreheading
+:END:
+
+#+BEGIN_EXPORT latex
+{
+\usebackgroundtemplate{\includegraphics[height=\paperheight]{\imagepath own/maps/nuclear-sharing-dca-range-buechel-airdefense.pdf
+}}
+\begin{frame}{}
+% 12.8cm pagewidth
+\begin{tikzpicture}[remember picture, overlay, shift={(current page.south west)}]
+
+%\helpgridcornerdense[gray]
+%\helpgridcorner[black]
+
+\end{tikzpicture}
+
+
+\end{frame}
+}
+#+END_EXPORT

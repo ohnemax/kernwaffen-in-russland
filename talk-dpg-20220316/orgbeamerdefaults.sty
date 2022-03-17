@@ -1,0 +1,735 @@
+% This work is licensed under a
+% Creative Commons Attribution-ShareAlike 4.0 International License.
+
+% You should have received a copy of the license along with this
+% work. If not, see <http://creativecommons.org/licenses/by-sa/4.0/>.
+
+\ProvidesPackage{orgbeamerdefaults}
+
+% ----------------------------------------------------------------------
+% Packages
+%----------------------------------------------------------------------
+\usepackage{grffile}
+\usepackage{animate}
+\usepackage{listings}
+\usepackage{isotope}
+
+\RequirePackage{fontspec}
+
+% Graphics
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usetikzlibrary{positioning}
+\usetikzlibrary{calc}
+\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{decorations.text}
+\usetikzlibrary{shadows}
+\usetikzlibrary{shadows.blur}
+\usetikzlibrary{shapes.callouts}
+\usetikzlibrary{shadings}
+\usetikzlibrary{shapes}
+\usetikzlibrary{backgrounds}
+\usetikzlibrary{arrows}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{matrix}
+\usepackage[skins]{tcolorbox}
+% Insert full pages
+\usepackage{pdfpages}
+% Spacing ... Space after Custom commands
+\usepackage{xspace}
+
+\pgfdeclarelayer{background}
+\pgfsetlayers{background,main}
+%----------------------------------------------------------------------
+% Tables
+%----------------------------------------------------------------------
+
+% Ctable Bugfix (http://tex.stackexchange.com/questions/253401/tikz-and-ctable-incompatibility-gives-error-when-printing)
+% removed as it does not seem to work (anymore?)
+% \makeatletter
+% \@namedef{ver@transparent.sty}{}
+% \makeatother
+\usepackage{ctable}
+\usepackage{tabularx}
+
+% some column types
+\newcolumntype{L}{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}X}
+\newcolumntype{R}{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}X}
+\newcolumntype{M}{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m}
+\newcolumntype{k}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+%----------------------------------------------------------------------
+% Fonts and things
+%----------------------------------------------------------------------
+% very tiny font, very very tiny font
+\newcommand{\vtiny}{\@setfontsize{\vtiny}{5pt}{5pt}}
+\newcommand{\vvtiny}{\@setfontsize{\vvtiny}{4pt}{4pt}}
+\newcommand{\tinyscriptsize}{\@setfontsize{\vvtiny}{7pt}{7pt}}
+\newcommand{\applesize}{\@setfontsize{\applesize}{10.4pt}{10.4pt}}
+%condensed light font (clf)
+\newfontfamily\clf{Fira Sans Condensed Light}
+
+%----------------------------------------------------------------------
+% Some Environments
+%----------------------------------------------------------------------
+
+\newenvironment{beamercenter}
+ {\parskip=0pt\par\nopagebreak\centering}
+ {\par\noindent\ignorespacesafterend}
+
+%----------------------------------------------------------------------
+% CC stuff
+%----------------------------------------------------------------------
+
+\newcommand{\ccbysa}{
+\begin{minipage}{0.2\textwidth}
+\centering
+\includegraphics[width=\linewidth]{by-sa.png}
+\end{minipage}
+\begin{minipage}{0.8\textwidth}
+  \tiny
+  \raggedright
+  \textcolor{gray!85}{This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit \url{http://creativecommons.org/licenses/by-sa/4.0/}.}
+\end{minipage}
+}
+%----------------------------------------------------------------------
+% Miniframe
+% ----------------------------------------------------------------------
+% dots in BEAMER (not needed with metropolis)
+% \makeatletter
+% \@removefromreset{subsection}{section} % creates navigation circles for every slide not section
+% \patchcmd{\beamer@part}{\setcounter{subsection}{0}}{}{}
+% \makeatother
+% \setcounter{subsection}{1}
+
+% ----------------------------------------------------------------------
+% Math
+%----------------------------------------------------------------------
+\usepackage{breqn} % Break equations and allow for multiline \left
+
+\newcommand{\iso}[2]{${}^{#1}$#2\xspace}
+
+
+%----------------------------------------------------------------------
+% Images
+% ----------------------------------------------------------------------
+% Caption
+\newcommand{\bcaption}[2]{
+  {
+    \raggedleft
+    
+    \fontfamily{lmss}\fontsize{5pt}{6}\selectfont
+
+    #1 \textcolor{gray}{#2}
+
+  }
+}
+
+%----------------------------------------------------------------------
+% Bibliography
+%----------------------------------------------------------------------
+\usepackage[backend=biber,citestyle=authoryear]{biblatex}
+\bibliography{/home/moritz/Documents/bibliography/kuett_zotero_update.bib}
+\renewcommand*{\bibfont}{\scriptsize}
+
+\DeclareCiteCommand{\imagecite}
+{}
+{\printfield{title}, by \printnames{author}, \printfield{pubstate}}
+{\multicitedelim}
+{}
+
+\newcommand{\imageFcite}[1]{\tiny 
+\textcolor{gray}{Image: \imagecite{#1}}
+}
+
+\DeclareCiteCommand{\imageciteurl}
+{}
+{\printfield{title}, by \printnames{author}, \printfield{pubstate}, \printfield{url}}
+{\multicitedelim}
+{}
+
+\newcommand{\bibcol}[1]{
+  \setbeamercolor{bibliography entry author}{fg=#1, bg=}%
+  \setbeamercolor{bibliography entry title}{fg=#1, bg=}%
+  \setbeamercolor{bibliography entry location}{fg=#1, bg=}%
+  \setbeamercolor{bibliography entry note}{fg=#1, bg=}%
+}%
+
+%----------------------------------------------------------------------
+% Beamer Layout Things
+%----------------------------------------------------------------------
+
+% Define a small footline for Metropolis Theme
+\newcommand{\smallfootline}{
+  \setbeamerfont{page number in head/foot}{size=\vtiny}
+  \begin{beamercolorbox}[wd=\textwidth, sep=1ex]{footline}%
+  \usebeamerfont{page number in head/foot}%
+  \usebeamertemplate*{frame footer}
+  \hfill%
+  \usebeamertemplate*{frame numbering}
+  \end{beamercolorbox}%
+}
+% normal footline from Metropolis (as of Feb 2018)
+\newcommand{\normalfootline}{
+  \setbeamerfont{page number in head/foot}{size=\scriptsize}
+  \begin{beamercolorbox}[wd=\textwidth, sep=3ex]{footline}%
+  \usebeamerfont{page number in head/foot}%
+  \usebeamertemplate*{frame footer}
+  \hfill%
+  \usebeamertemplate*{frame numbering}
+  \end{beamercolorbox}%
+}
+
+% ----------------------------------------------------------------------
+% Some useful tcolorboxes
+% ----------------------------------------------------------------------
+
+% Torn Paper
+\newtcolorbox{tornpage}[2][]{%
+  enhanced jigsaw, % allow page breaks
+  frame hidden, % hide the default frame
+  #2,
+  overlay={%
+    \draw [
+    draw=white!50!black,
+    decorate, 
+    decoration={random steps,segment length=1pt,amplitude=0.5pt},
+    drop shadow,
+    %blur shadow={shadow yshift=-0.7ex, shadow xshift=0.1ex},
+    #1
+    ]
+    % top line
+    (frame.north west)--(frame.north east)--
+    % right line
+    (frame.north east)--(frame.south east)--
+    % bottom line
+    (frame.south east)--(frame.south west)--
+    % left line
+    (frame.south west)--(frame.north west);
+  },
+  % paragraph skips obeyed within tcolorbox
+  parbox=false,
+}
+
+\newtcolorbox{tornpagetb}[2][]{%
+  enhanced jigsaw, % allow page breaks
+  frame hidden, % hide the default frame
+  #2,
+  overlay={%
+    \draw [
+    draw=white!50!black,
+    decorate, 
+    %decoration={random steps,segment length=1pt,amplitude=0.5pt},
+    drop shadow,
+    %blur shadow={shadow yshift=-0.7ex, shadow xshift=0.1ex},
+    #1
+    ]
+    % top line
+    decorate[decoration={random steps,segment length=1pt,amplitude=0.5pt}]{(frame.north west)--(frame.north east)}
+    % right line
+    --(frame.south east)
+    % bottom line
+    decorate[decoration={random steps,segment length=1pt,amplitude=0.5pt}]{--(frame.south west)}
+    % left line
+    --(frame.north west);
+  },
+  % paragraph skips obeyed within tcolorbox
+  parbox=false,
+}
+
+
+% only top and bottom
+
+% % adapted from https://tex.stackexchange.com/questions/86150/torn-page-effect/272177#272177
+% \pgfdeclaredecoration{irregular fractal line}{init}
+% {
+%   \state{init}[width=\pgfdecoratedinputsegmentremainingdistance]
+%   {
+%     \pgfpathlineto{\pgfpoint{random*\pgfdecoratedinputsegmentremainingdistance}{(random*\pgfdecorationsegmentamplitude-0.02)*\pgfdecoratedinputsegmentremainingdistance}}
+%     \pgfpathlineto{\pgfpoint{\pgfdecoratedinputsegmentremainingdistance}{0pt}}
+%   }
+% }
+
+% \tikzset{
+%    tp paper/.style={draw=black!10, blur shadow, shading=bilinear interpolation,
+%                  lower left=black!20, upper left=black!15, upper right=white, lower right=black!10},
+%    tp irregular border/.style={decoration={irregular fractal line, amplitude=0.2},
+%            decorate,
+%      },
+%    % tp irregular border/.style={decoration={random steps, segment length=7mm, amplitude=2mm},
+%    %         decorate,
+%    % },
+%    tp ragged border/.style={decoration={random steps, segment length=7mm, amplitude=2mm},
+%            decorate,
+%    }
+%  }
+
+% \def\tornpapertb#1{
+% \tikz{
+%   \node[inner sep=1em] (A) {#1};  % Draw the text of the node
+%   \begin{pgfonlayer}{background}  % Draw the shape behind
+%   \fill[tp paper] % recursively decorate the bottom border
+%         decorate[tp irregular border]{decorate{decorate{decorate{decorate[tp ragged border]{
+%         ($(A.south east) - (0, random*5mm)$) -- ($(A.south west) - (0, random*5mm)$)
+%         }}}}}
+%         -- (A.north west) -- (A.north east) -- cycle;
+%   \end{pgfonlayer}}
+% }
+
+% \newenvironment{tornpagetb}
+%   {\tornpapertb{%
+%   }
+%   {
+%     }
+%   }
+% \newenvironment{tornpagetb}[1][] {
+%   \tikz{
+%     \node[inner sep=1em, #1] (A) {}
+% {
+%     };  
+%   \begin{pgfonlayer}{background} 
+%   \fill[tp paper] 
+%         decorate[tp irregular border]{decorate{decorate{decorate{decorate[tp ragged border]{
+%         ($(A.south east) - (0, random*5mm)$) -- ($(A.south west) - (0, random*5mm)$)
+%         }}}}}
+%         -- (A.north west) -- (A.north east) -- cycle;
+%   \end{pgfonlayer}}
+% }
+
+% \newtcolorbox{tornpagetb}[1][]{%
+%   enhanced jigsaw, % allow page breaks
+%   frame hidden, % hide the default frame
+%   overlay={%
+%     \draw[
+%     draw=white!50!black,
+%     decorate, 
+%     decoration={random steps,segment length=1pt,amplitude=0.5pt},
+%     blur shadow={shadow yshift=-0.7ex, shadow xshift=0.1ex},
+%     % drop shadow,
+%     #1
+%     ]
+%     % top line
+%     (frame.north west)--(frame.north east)--
+%     % right line
+%     (frame.north east)--(frame.south east)--
+%     % bottom line
+%     (frame.south east)--(frame.south west)--
+%     % left line
+%     (frame.south west)--(frame.north west);
+%     % (frame.north west) -- (frame.north east) -- (frame.south east) -- (frame.south west) -- cycle;
+%     % decorate[decoration={random steps,segment length=1pt,amplitude=0.5pt}]{(frame.north west)--(frame.north east)}--
+%     % %--(frame.north east)
+%     % % right line
+%     % % -- (frame.south east)--(frame.south west)--cycle;
+%     % % bottom line
+%     % decorate[decoration={random steps,segment length=1pt,amplitude=0.5pt}]{(frame.south east)--(frame.south west)}--cycle;
+%     % % left line
+%     % (frame.south west)--(frame.north west);
+%   },
+%   % paragraph skips obeyed within tcolorbox
+%   parbox=false,
+% }
+
+\newenvironment{imagebox3rows}[2][]{%
+  \begin{tcolorbox}[
+    sidebyside,lefthand width=2.1cm,
+    sharp corners,
+    boxrule=0.3mm,
+    boxsep=0pt, left=0pt, right=8pt, top=0pt, bottom=0pt,
+    sidebyside gap=8pt,
+    colback=white, lower separated=false,
+    halign lower=flush left,
+    #1]
+
+    \includegraphics[width=\textwidth]{#2}
+
+    \tcblower
+  }
+  {\end{tcolorbox}}
+
+\newenvironment{imagebox3rowsb}[2][]{%
+  \begin{tcolorbox}[
+    enhanced, colback=white, sharpish corners, fuzzy halo=0.5mm with fg,    
+    sidebyside,lefthand width=2cm,
+    boxrule=0mm,
+    boxsep=0pt, left=4pt, right=8pt, top=0pt, bottom=0pt,
+    sidebyside gap=8pt,
+    colback=white, lower separated=false,
+    halign lower=flush left,
+    #1]
+
+    \includegraphics[width=\textwidth]{#2}
+
+    \tcblower
+  }
+  {\end{tcolorbox}}
+
+\newenvironment{newimagebox3rows}[2][]{%
+  \tcbset{nib3r/.style={
+      enhanced,
+      clip upper,
+      flush right,
+      %show bounding box,
+      sharp corners,
+      boxsep=0pt,
+      % boxrule=0pt,
+      frame hidden,
+      halign=flush left,
+      valign=center,
+      % draft,
+      colback=white,
+      fontupper=\footnotesize,
+      fuzzy halo=0.1mm with mDarkTeal,
+      % equal height group=nib3rehg,
+      height = 0.23\paperheight,
+    }
+  }
+
+  \begin{minipage}[]{0.25\textwidth}
+    \begin{tcolorbox}[width=\textwidth,nib3r,
+      left=0em, right=0em,top=0em,bottom=0em,
+      #1]
+      \includegraphics[width=\textwidth]{#2}
+    \end{tcolorbox}
+  \end{minipage}%
+  \begin{minipage}[]{0.75\textwidth}
+    \begin{tcolorbox}[width=0.95\textwidth,nib3r,
+      left=0.5em, right=0.5em,top=0.5em,bottom=0.5em,
+      #1]
+  }
+  {\end{tcolorbox}
+  \end{minipage}
+  }
+
+\newenvironment{newimagebox2rows}[2][]{%
+  \tcbset{nib3r/.style={
+      enhanced,
+      clip upper,
+      flush right,
+      %show bounding box,
+      sharp corners,
+      boxsep=0pt,
+      % boxrule=0pt,
+      frame hidden,
+      halign=flush left,
+      valign=center,
+      % draft,
+      colback=white,
+      fontupper=\footnotesize,
+      fuzzy halo=0.1mm with mDarkTeal,
+      % equal height group=nib3rehg,
+      height = 0.28\paperheight,
+    }
+  }
+
+  \begin{minipage}[]{0.33\textwidth}
+    \begin{tcolorbox}[width=\textwidth,nib3r,
+      left=0em, right=0em,top=0em,bottom=0em,
+      #1]
+      \includegraphics[width=\textwidth]{#2}
+    \end{tcolorbox}
+  \end{minipage}%
+  \begin{minipage}[]{0.66\textwidth}
+    \begin{tcolorbox}[width=0.95\textwidth,nib3r,
+      left=0.5em, right=0.5em,top=0.5em,bottom=0.5em,
+      #1]
+  }
+  {\end{tcolorbox}
+  \end{minipage}
+  }
+  
+\newenvironment{variableimagebox3rows}[5]{%
+  \tcbset{nib3r/.style={
+      enhanced,
+      clip upper,
+      flush right,
+      %show bounding box,
+      sharp corners,
+      boxsep=0pt,
+      % boxrule=0pt,
+      frame hidden,
+      halign=flush left,
+      valign=center,
+      % draft,
+      colback=white,
+      fontupper=\footnotesize,
+      fuzzy halo=0.1mm with mDarkTeal,
+      % equal height group=nib3rehg,
+      height = 0.23\paperheight,
+    }
+  }
+
+  \begin{minipage}[]{#1\textwidth}
+    \begin{tcolorbox}[width=\textwidth,nib3r,
+      left=0em, right=0em,top=0em,bottom=0em,
+      #2]
+      \includegraphics[width=\textwidth]{#5}
+    \end{tcolorbox}
+  \end{minipage}%
+  \begin{minipage}[]{#3\textwidth}
+    \begin{tcolorbox}[width=0.95\textwidth,nib3r,
+      left=0.5em, right=0.5em,top=0.5em,bottom=0.5em,
+      #4]
+  }
+  {\end{tcolorbox}
+  \end{minipage}
+  }
+
+\newenvironment{simplevariablerowimagebox}[5]{%
+  \tcbset{nib3r/.style={
+      enhanced,
+      clip upper,
+      flush right,
+      %show bounding box,
+      sharp corners,
+      boxsep=0pt,
+      halign=flush left,
+      valign=center,
+      boxrule=0.5pt,
+      %draft,
+      fontupper=\footnotesize,
+    }
+  }
+
+  \begin{minipage}[]{#1\textwidth}
+    \begin{tcolorbox}[width=\textwidth,nib3r,
+      left=0em, right=0em,top=0em,bottom=0em,
+      #2]
+      \includegraphics[width=\textwidth]{#5}
+    \end{tcolorbox}
+  \end{minipage}%
+  \begin{minipage}[]{#3\textwidth}
+    \begin{tcolorbox}[width=0.95\textwidth,nib3r,
+      left=0.5em, right=0.5em,top=0.5em,bottom=0.5em,
+      #4]
+  }
+  {\end{tcolorbox}
+  \end{minipage}
+  }
+  
+\newenvironment{variableimagebox3cols}[6]{%
+  \tcbset{nib3r/.style={
+      enhanced,
+      clip upper,
+      flush right,
+      %show bounding box,
+      sharp corners,
+      boxsep=0pt,
+      % boxrule=0pt,
+      frame hidden,
+      halign=flush left,
+      valign=center,
+      % draft,
+      colback=white,
+      fontupper=\footnotesize,
+      fuzzy halo=0.1mm with mDarkTeal,
+      % equal height group=nib3rehg,
+    }
+  }
+
+  \begin{minipage}[]{\textwidth}
+    \begin{tcolorbox}[width=\textwidth,nib3r,
+      left=0em, right=0em,top=0em,bottom=0em,
+      height=#1\textheight,
+      #2]
+      \includegraphics[width=\textwidth, height=\textheight, keepaspectratio]{#6}
+    \end{tcolorbox}
+    \vspace{#3}
+    \begin{tcolorbox}[width=\textwidth,nib3r,
+      left=0.5em, right=0.5em,top=0.5em,bottom=0.5em,
+      height=#4\textheight,
+      #5]
+  }
+  {\end{tcolorbox}
+  \end{minipage}%
+  }
+  
+\newenvironment{imagebox2rows}[2][]{%
+  \begin{tcolorbox}[
+    sidebyside,lefthand width=3cm,
+    sharp corners,
+    boxrule=0.3mm,
+    halign=flush left,
+    boxsep=0pt, left=0pt, right=8pt, top=0pt, bottom=0pt,
+    sidebyside gap=8pt,
+    colback=white, lower separated=false,
+    halign lower=flush left,
+    #1]
+
+    \includegraphics[width=\textwidth]{#2}
+
+    \tcblower
+  }
+  {\end{tcolorbox}}
+
+\newtcolorbox{imageboxplain}[1][]{%
+  enhanced,
+  frame hidden,
+  sharp corners,
+  colframe=fg,
+  drop small lifted shadow=fg,
+  size=tight,
+  #1
+}
+
+\newtcolorbox{boxhalo}[1][]{%
+  enhanced,
+  clip upper,
+  sharp corners,
+  boxsep=0pt,
+  left=0.25em, right=0.25em,top=0.25em,bottom=0.25em,
+  boxrule=0pt,
+  fuzzy halo=0.5mm with mDarkTeal,
+  halign=flush left,
+  fontupper=\scriptsize,
+  #1
+}
+
+\newtcolorbox{boxsimple}[1][]{%
+  enhanced,
+  clip upper,
+  sharp corners,
+  boxsep=0pt,
+  left=0.25em, right=0.25em,top=0.25em,bottom=0.25em,
+  boxrule=0pt,
+  halign=flush left,
+  fontupper=\scriptsize,
+  #1
+}
+
+% ----------------------------------------------------------------------
+% Some useful tikz abbreviations
+% ----------------------------------------------------------------------
+% a node that sits directly under header + progressbar, full page width
+% \newcommand{pagenode}[2][]{
+%   \node at (0, 8.548) [anchor=north west,
+%   minimum width=\paperwidth,
+%   minimum height=7.048cm,
+%   #1
+%   ]
+%   {#2};
+% }
+
+
+% ----------------------------------------------------------------------
+% PDF Imports
+% ----------------------------------------------------------------------
+\newcommand{\pdfpage}[2]{
+  {
+    \setbeamertemplate{footline}{}
+    \begin{frame}{}
+      \begin{tikzpicture}[remember picture,overlay]
+        \node[at=(current page.center)] {
+          \includegraphics[page=#1,height=\paperheight,keepaspectratio]{#2}
+        };
+      \end{tikzpicture}
+    \end{frame}
+  }  
+}
+
+\newcommand{\pdfpageblacksmall}[2]{
+{
+  \setbeamertemplate{footline}{}
+  \begin{frame}{}
+
+    \begin{tikzpicture}[remember picture,overlay]
+      \node[at=(current page.center)] {
+        \includegraphics[page=#1,height=\paperheight,keepaspectratio]{#2}
+      };
+      \node[draw, rectangle, align=flush left,
+      minimum height=0.25cm,
+      at=(current page.south west),anchor=south west,
+      fill=black,text=white,inner sep=0,
+      text width=\paperwidth
+      ]{\hspace{0.2cm}\vtiny \insertshortauthor{} | \insertshorttitle{} | \insertdate \hspace*{\fill} \insertframenumber{} \hspace*{0.2cm}};
+    \end{tikzpicture}
+  \end{frame}
+}
+  
+}
+
+\newcommand{\pdfpagewithsmallfootline}[3][]{
+{
+  \setbeamertemplate{footline}{}
+  \begin{frame}[label=#1]{}
+    \begin{tikzpicture}[remember picture,overlay]
+      \node[at=(current page.center)] {
+        \includegraphics[page=#2,height=\paperheight,keepaspectratio]{#3}
+      };
+      \node[draw, rectangle, align=flush left,
+      minimum height=0.25cm,
+      at=(current page.south west),anchor=south west,
+      fill=black,text=white,inner sep=0,
+      text width=\paperwidth
+      ]{\hspace{0.2cm}\vtiny \insertshortauthor{} | \insertshorttitle{} | \insertdate \hspace*{\fill} \insertframenumber{} \hspace*{0.2cm}};
+    \end{tikzpicture}
+  \end{frame}
+}
+}
+
+
+% ----------------------------------------------------------------------
+% Things for Tikz
+% ----------------------------------------------------------------------
+\newcommand{\helpgridpage}[1][\bgcol]{%
+    \foreach \i in {-7,...,7}
+    \draw ($ (current page.center) + (\i,-5) $) -- ($ (current page.center) + (\i,5) $) node [at=(current page.center),shift={(\i cm,0 cm)}] {\i};
+    \foreach \i in {-5,...,5}
+    \draw ($ (current page.center) + (-7,\i) $) -- ($ (current page.center) + (7,\i) $) node [at=(current page.center),shift={(0 cm,\i cm)}] {\i};
+  % \draw[help lines] ($ (current page.center) - (7, 5) $) grid (14, 10);
+  % \draw[help lines] (current page.center) grid (7, 5);
+  % \draw[help lines, color=#1] (current page.south west) grid (current page.north east); \fill[#1] (0,0) circle (3pt);%
+%   \foreach \i in {-35,...,35}
+%     \draw ($ (current page.center) + (0.2\i,-5) $) -- ($ (current page.center) + (0.2\i,5) $) node [at=(current page.center),shift={(\i cm,0 cm)}] {\i};
+%     \foreach \i in {-25,...,25}
+%     \draw ($ (current page.center) + (-5,0.2\i) $) -- ($ (current page.center) + (5,0.2\i) $) node [at=(current page.center),shift={(0 cm,\i cm)}] {\i};
+  % \foreach \i in {-35,...,35} {%
+  %   \draw ($ (current page.center) + (0.2\i,-5) $) -- ($ (current page.center) + (0.2\i,5) $);
+  % };
+  % \foreach \i in {-7,...,7} {%
+  %   \node at ($ (current page.center) + (\i, 0) $) {\tiny \i};
+  % };
+%   \foreach \i in {-6,...,6} {%
+%   \node at (0.2,\i+0.2) {\color{#1} \tiny \i};}
+}
+
+\newcommand{\helpgridcorner}[1][\bgcol]{%
+  \draw[help lines, color=#1] (current page.south west) grid (current page.north east); \fill[#1] (0,0) circle (3pt);%
+  \foreach \i in {-6,...,6} {%
+  \node at (0.1,\i+0.1) {\color{#1} \tiny \i};
+}
+  \foreach \i in {0,...,14} {%
+  \node at (\i+0.1,0.1) {\color{#1} \tiny \i};
+}
+}
+
+\newcommand{\helpgridcornerdense}[1][\bgcol]{%
+  \draw[help lines, color=#1, xstep=.2, ystep=.2, very thin] (current page.south west) grid (current page.north east); \fill[#1] (0,0) circle (3pt);%
+}
+
+
+% ----------------------------------------------------------------------
+% Some Environments
+% ----------------------------------------------------------------------
+\newenvironment{NOTES}
+    {\note{
+    }
+    {
+      }
+    }
+% ----------------------------------------------------------------------
+% Custom Commands
+%----------------------------------------------------------------------
+
+% ... Alpha N - often used
+\newcommand{\an}{($\alpha$, n)\xspace}
+
+\makeatletter
+\newbox\@backgroundblock
+\newenvironment{backgroundblock}[2]{%
+  \global\setbox\@backgroundblock=\vbox\bgroup%
+    \unvbox\@backgroundblock%
+    \vbox to0pt\bgroup\vskip#2\hbox to0pt\bgroup\hskip#1\relax%
+}{\egroup\egroup\egroup}
+\addtobeamertemplate{background}{\box\@backgroundblock}{}
+\makeatother
