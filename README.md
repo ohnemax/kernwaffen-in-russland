@@ -13,6 +13,7 @@ Gerne per Pull-Request Änderungen vorschlagen, oder direkt Kontakt aufnehmen ([
 2) [Russische Kernwaffenbestände](#russische-kernwaffenbestände)
 3) [Effekte von Kernwaffen](https://github.com/ohnemax/kernwaffen-in-russland#effekte-von-kernwaffen)
 4) [Befehlsgewalt über Kernwaffen](#befehlsgewalt-über-kernwaffen)
+5) [Zusätzliche Infos](#zusätzliche-infos)
 
 ## Aktuelle Entwicklungen
 * 24.02.2022: Russische Truppen beginnen einen Einmarsch/Überfall auf die Ukraine
@@ -139,6 +140,10 @@ Falls der russische Präsident sein Amt nicht ausüben kann, z.B. aus medizinisc
 In Russland existiert das Notfallsystem Perimetr, welches Notfallkommunikation für die russische Kommandostruktur zur Verfügung stellt.
 Die Kommunikation wird durch startende "Perimetr"-Raketen gewährleistet, die nach aus der Luft direkt mit strategischen Waffensystemen kommunizieren und entsprechende Startbefehle weitergeben. Damit können solche Befehle auch erteilt werden, wenn andere Kommunikationswege nicht mehr verfügbar sind.
 In einem geplanten Modus des Perimeter Systems konnte dieses Kommandoraketen auch automatisch starten. Damit käme es einem "Totmann-System" gleich, dass Kernwaffen automatisch starten würde, wenn die russische Führung nicht mehr erreichbar wäre. Es ist jedoch nicht bekannt, dass ein solcher automatischer Modus in der Vergangenheit installiert und aktiviert wurde. [^podvig2001]
+
+## Zusätzliche Infos
+
+Der [Vortrag](https://github.com/ohnemax/kernwaffen-in-russland/blob/main/talk-dpg-20220316/talk.pdf) zu Kernwaffen in Russland "Brennpunktsitzung" im Rahmen der virtuellen 85. Jahrestagung der DPG und DPG-Frühjahrstagung der Sektion Atome, Moleküle, Quantenoptik und Photonik (SAMOP) findet sich inklusive Quellen hier im Repository.
 
 ## Endnoten / Referenzen
 
